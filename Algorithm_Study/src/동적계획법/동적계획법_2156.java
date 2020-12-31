@@ -2,7 +2,6 @@ package 悼利拌裙过;
 import java.util.*;
 
 public class 悼利拌裙过_2156 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N= sc.nextInt();

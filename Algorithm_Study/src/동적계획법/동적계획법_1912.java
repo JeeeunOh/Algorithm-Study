@@ -8,7 +8,7 @@ public class 동적계획법_1912 {
 		int n = sc.nextInt();
 		int[] arr = new int[n+1];
 		int[] dp = new int[n+1];
-		int max=0;
+		int max=-1000;
 		for(int i=1 ; i<=n ; i++) {
 			arr[i]=sc.nextInt();
 			dp[i]=arr[i];

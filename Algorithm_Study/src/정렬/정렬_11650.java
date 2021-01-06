@@ -14,6 +14,7 @@ public class 정렬_11650 {
             d[i][0] = sc.nextInt();
             d[i][1] = sc.nextInt();
         }
+        
         Arrays.sort(d, new Comparator<int[]>() {
             @Override
             public int compare(int[] o1, int[] o2) {
@@ -24,6 +25,7 @@ public class 정렬_11650 {
                     return Integer.compare(o1[0], o2[0]);
             }
         });
+        
         for(int i=0 ; i< n ; i++) {
             System.out.println(d[i][0]+" "+d[i][1]);
         }

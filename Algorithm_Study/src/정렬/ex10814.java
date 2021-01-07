@@ -3,8 +3,7 @@ package Á¤·Ä;
 import java.util.*;
  
 public class ex10814 {
-	public static void main(String[] args) {		
- 
+	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
 		int N = in.nextInt();

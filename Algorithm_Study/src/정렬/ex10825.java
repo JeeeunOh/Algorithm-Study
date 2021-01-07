@@ -27,18 +27,18 @@ public class ex10825 {
 					if(Integer.parseInt(s1[2])==Integer.parseInt(s2[2])){
 						if(Integer.parseInt(s1[3])==Integer.parseInt(s2[3])) {
 							return s1[0].compareTo(s2[0]);
-							
+							//String.CompareTo ¸Ş¼Òµå
 						}
+						return Integer.compare(Integer.parseInt(s2[3]), Integer.parseInt(s1[3]));
 					}
-					
+					return Integer.compare(Integer.parseInt(s1[2]), Integer.parseInt(s2[2]));
 				}
-				return Integer.parseInt(s2[1]) - Integer.parseInt(s1[1]);
+				return Integer.compare(Integer.parseInt(s2[1]), Integer.parseInt(s1[1]));
 			}
-			
 		});
 		
 		for(int i = 0; i < N; i++) {
-			System.out.println(arr[i][0] + " " + arr[i][1]);
+			System.out.println(arr[i][0] );
 		}
         
 		

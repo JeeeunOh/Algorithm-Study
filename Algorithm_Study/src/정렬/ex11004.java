@@ -5,7 +5,6 @@ import java.math.*;
 import java.io.*;
 
 public class ex11004 {
-	
  	static int k,n;
 	public static int partition(int[] array, int left, int right) {
 	    int mid = (left + right) / 2; 

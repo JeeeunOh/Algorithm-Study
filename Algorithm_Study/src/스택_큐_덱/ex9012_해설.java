@@ -7,7 +7,7 @@ public class ex9012_해설 {
 		Scanner sc = new Scanner (System.in);
 		int n = sc.nextInt();
 		while(n-->0) {
-			boolean isVps=true;
+			boolean isVps=true; //불린값
 			String input = sc.next();
 			Stack<Character> stk = new Stack<Character>();
 			char temp;

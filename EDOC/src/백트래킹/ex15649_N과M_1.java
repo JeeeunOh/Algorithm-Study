@@ -10,7 +10,7 @@ public class ex15649_N과M_1 {
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
 		M = sc.nextInt();
-		arr = new int[M];
+		arr = new int[M];// 출력할 수열 입력하는 배열
 		visited = new int[N+1];
 		dfs(N,M,0);
 	}

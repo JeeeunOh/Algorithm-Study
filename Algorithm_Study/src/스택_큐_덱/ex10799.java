@@ -26,4 +26,3 @@ public class ex10799 {
 	        System.out.println(count);
 	    }
 }
-//  1 ((( 1 1 ) ( 1 ) 1 ))( 1 )

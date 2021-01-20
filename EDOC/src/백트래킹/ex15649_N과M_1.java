@@ -29,7 +29,6 @@ public class ex15649_N과M_1 {
 					visited[i]=1;
 					arr[dep]=i;
 					dfs(n,m,dep + 1); 
-					visited[i]=0;
 				}// 방문한 적이 없다면, 다음으로 넘어감
 			}
 		}

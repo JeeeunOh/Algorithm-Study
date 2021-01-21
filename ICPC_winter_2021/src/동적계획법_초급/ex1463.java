@@ -9,6 +9,7 @@ public class ex1463 {
 		int lim = 1000000;
 		int N = Integer.parseInt(br.readLine());
 		long[] arr = new long[lim+1]; // new long[lim] -> new long[lim+1] 런타임에러 해결
+		// 조건이 '작거나 같은' 이기 때문에 lim+1 필요
 		arr[1]=0;
 		arr[2]=arr[3]=1;
 		if(N>=4) {

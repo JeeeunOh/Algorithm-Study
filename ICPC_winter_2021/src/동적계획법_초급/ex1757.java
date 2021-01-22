@@ -20,13 +20,15 @@ public class ex1757 {
     	
     	for(int i=1;i<=n;i++) {
     		for(int j=0;j<=m;j++) {
-    			if(j!=1) {
+    			if(j!=1) { //j가 0이라면 dp[i-1][j-1]에 접근하지 못한다.
     				if(j!=0) {
     					dp[i][j][1]=dp[i-1][j-1][1]+arr[i];
     					dp[i][j][0]=Math.max(dp[i-1][j+1][1],dp[i-1][j+1][0]);
     				}
     				else {
+    					//j가 0이면서 달리는 경우는 없다.
     					dp[i][j][0]=Math.max(dp[i-1][j+1][0],Math.max(dp[i-1][j+1][1],dp[i-1][j][0]));
+    					//j가 0일 때 쉬면 다시 j가 0인 것을 생각해주자. 지침지수가 0보다 내려갈 수 x.
     				}
     			}
     			else {

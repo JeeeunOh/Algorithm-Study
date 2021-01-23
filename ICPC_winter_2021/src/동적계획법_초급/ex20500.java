@@ -11,12 +11,15 @@ import java.util.*;
 public class ex20500 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int mod = 1000000007;
 		int N = sc.nextInt();
-		long[] dp = new long[1516];
-		dp[0]=dp[1]=0;
-		dp[2]=dp[3]=1;
-		for (int i=1 ; i<=N ; i++) {
-			dp[i]=0;
+		long[][] arr = new long[3][1516]; //[3으로 나눴을 때 나머지][숫자길이]
+		arr[1][1]=1;arr[2][1]=1; //1%3==1, 5%3==2;
+		for(int i=2 ; i<N ; i++) {
+			arr[0][i]=(arr[1][i-1]+arr[2][i-1])%mod;
+			arr[1][i]=(arr[0][i-1]+arr[2][i-1])%mod;
+			arr[2][i]=(arr[0][i-1]+arr[1][i-1])%mod;
 		}
+		System.out.println(arr[1][N-1]);
 	}
 }

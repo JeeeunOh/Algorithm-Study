@@ -1,65 +1,42 @@
 package 정렬_이분탐색;
-import java.util.*;
+
 /* https://maivve.tistory.com/145 참조
  * 심사대 비었다고 바로 심사 x, 자율적으로 쉬면서 바로 안가도 된다.
  이분탐색 : 해공간 반토막 내면서 해의 범위 좁히는 기법
  = 정확한 값 검색 & 유사값 검색
  */
-
 import java.io.*;
 import java.util.*;
 
 public class ex3079 {
-
-	static long n, m;
-	static long[] time;
-
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-
-		n = Long.parseLong(st.nextToken());
-		m = Long.parseLong(st.nextToken());
-
-		time = new long[(int) n];
-
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		int n = Integer.valueOf(st.nextToken());
+		int m = Integer.valueOf(st.nextToken());
+		int[] times = new int[n];
 		for (int i = 0; i < n; i++) {
-			time[i] = Long.parseLong(br.readLine());
+			times[i] = Integer.valueOf(br.readLine());
 		}
-
-		binarySearch();
-
+		System.out.println(solution(m, times));
 	}
 
-	private static void binarySearch() {
-		long left = 1;
-		long right = 1000000000000000000L;
-		long result = right;
-		long mid = 0;
+	public static long solution(int n, int[] times) {
+		long min = 1; // 최소 시간
+		long max = (long) times[times.length - 1] * n; // 최대시간 (int*int 이기 때문에 long 변환 필요)
 
-		while (left <= right) {
-			mid = (left + right) / 2;
+		while (min <= max) {
+			long mid = (min + max) / 2;
+			long sum = 0;
+			for (int i = 0; i < times.length; i++) 
+				sum += (mid / times[i]); // mid시간일 때 한명당 맡을 수 있는 사람의 수
 
-			if (isPossible(mid)) {
-				result = Math.min(result, mid);
-				right = mid - 1;
-			} else {
-				left = mid + 1;
-			}
+			if (sum >= n) max = mid - 1; 
+			else min = mid + 1;
 		}
-
-		System.out.println(result);
-	}
-
-	private static boolean isPossible(long t) {
-		long temp = 0;
-		for (int i = 0; i < n; i++) {
-			temp += t / time[i];
-		}
-		return temp >= m;
+		return min;
 	}
 }
-
 
 
 

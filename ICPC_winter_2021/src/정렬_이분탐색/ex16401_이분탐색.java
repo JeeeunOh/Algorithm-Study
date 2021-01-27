@@ -24,7 +24,7 @@ public class ex16401_이분탐색 {
 			int cnt = 0;
 			
 			for(int i=0; i<N; i++) cnt += arr[i]/mid; //중간값보다 큰 arr값 세고
-			if(cnt >= M) { //앖에서 구한 cnt값이 조카의수보다 크다면,
+			if(cnt >= M) { //앞에서 구한 cnt값이 조카의수보다 크다면,
 				if(result < mid) result = mid;
 				bs(mid+1, e); //시작점+1을 하고
 			}

@@ -18,7 +18,6 @@ public class ex2343 {
 	static int[] array;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken()); // 레슨 수
         M = Integer.parseInt(st.nextToken()); // 블루레이 개수

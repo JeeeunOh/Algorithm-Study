@@ -15,7 +15,8 @@ public class ex1966 {
 			n=sc.nextInt(); 
 			m=sc.nextInt(); 
 			for(int j=0; j<n; j++) 
-				queue.add(new int[] {j, sc.nextInt()}); 
+				queue.add(new int[] { j, sc.nextInt()
+						}); 
 			// 인덱스, 중요도 입력받기 
 			while(!queue.isEmpty()){ 
 				// 큐가 빌 때까지 

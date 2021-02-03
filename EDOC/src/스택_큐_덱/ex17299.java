@@ -15,15 +15,15 @@ public class ex17299{
         
         for(int i = 0; i < n; i++) { // 수열 만들기
             a[i] = sc.nextInt();
-            f[a[i]] += 1; // 해당 숫자 count++ 해주기
+            f[a[i]] +=1; // 해당 숫자 count++ 해주기
         }
         
         s.push(0); // 처음 인덱스는 그냥 넣고
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             if(s.isEmpty())  s.push(i); // 스택 비어있으면 바로 지금 인덱스 저장
             while(!s.isEmpty() && f[a[s.peek()]] < f[a[i]]) { 
-            	 // 스택이 비어있지 않고 숫자가 스택 가장 윗 숫자와 비교해서 큰 경우 반복
-                ngf[s.pop()] = a[i]; // 스택 하나 비우면서 이 인덱스에 숫자 넣음
+            	 // 오등큰수 발견 시
+                ngf[s.pop()] = a[i]; // 해당 인덱스에 위치한 수의 오등큰수를 저장함
             }
             // 반복 끝나면, 다음에 비교할 값 stack에 저장
             s.push(i);

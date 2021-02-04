@@ -2,6 +2,7 @@ package 그래프;
 
 // 최단거리문제와 유사 -> BFS로 풀이가능
 // BFS 는 큐, DFS 는 재귀!
+// 수빈이는 걷거나 순간이동 가능, 수빈이 위치 x 에서 걷는다면 x-1. x+1 이동하고 순간이동 한다면 2*x의 위치로 이동할 수 있다.
 	import java.util.LinkedList;
 	import java.util.Queue;
 	import java.util.Scanner;

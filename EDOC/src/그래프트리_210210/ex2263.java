@@ -16,9 +16,10 @@ public class ex2263{
     static int [] position = new int[100001];
     
    /* - 인오더 : 좌 -> 루트 -> 우
-    - 포스트오더 : 좌 -> 우 -> 루트 : 맨 마지막에 입력 받는 것이 루트이다.
+    -  포스트오더 : 좌 -> 우 -> 루트 : 맨 마지막에 입력 받는 것이 루트이다.
     -   - 프리오더 : 루트 -> 좌 -> 우 : 출력해야하는 것
     */
+    
     
     // 인오더 시작과 끝, 포스트오더 시작과 끝을 입력받음
     static void solve(int is, int ie, int ps, int pe) {
@@ -27,7 +28,7 @@ public class ex2263{
         System.out.print(root+" ");
         int inRoot = position[root]; //인오더의 루트 인덱스 : 루트를 중심으로 좌, 우 가 나눠짐
         int left = inRoot-is; //포스트오더의 왼쪽 자식의 수
-        solve(is, inRoot-1, ps, ps+left-1); // 왼쪽 자식들 탐색
+        solve(is, inRoot-1, ps, ps+left-1); // 왼쪽 자식들 탐색 // 좌 루트 우
         solve(inRoot+1, ie, ps+left, pe-1); // 오른쪽 자식들 탐색
     } // 이렇게 탐색하다보면 루트 -> 좌 -> 우 순서대로 탐색하며 출력함
     

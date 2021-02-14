@@ -60,7 +60,7 @@ public class ex1753 {
             dist[start] = 0;
            
             while(!queue.isEmpty()){
-               Node curNode = queue.poll(); // 가중치가 작은것부터
+            	Node curNode = queue.poll(); // 가중치가 작은것부터
                int cur = curNode.end;
                
                if(check[cur] == true) continue;

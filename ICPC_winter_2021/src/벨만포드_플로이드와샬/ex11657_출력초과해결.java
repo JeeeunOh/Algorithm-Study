@@ -2,7 +2,7 @@ package 벨만포드_플로이드와샬;
 
 import java.util.*;
 
-public class ex11657 {
+public class ex11657_출력초과해결 {
     static class Bus{
         // 시작점, 도착점, 걸리는 시간
         int start, end, weight;

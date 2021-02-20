@@ -1,4 +1,4 @@
-package map_set_정수론;
+ package map_set_정수론;
 
 import java.io.*;
 import java.util.*;

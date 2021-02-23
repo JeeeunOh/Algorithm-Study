@@ -25,7 +25,7 @@ public class ex1182_백트래킹 {
 
     private static void backtracking(int total, int depth) {
         if (depth == N - 1 && total == S)  count++; 
-        //dep == N-1 까지 계속 백트래킹
+        // 수열을 끝까지 탐색할 떄 까지 계속 dep++
         depth++;
         if (depth < N) { // 지금 위치 원소 선택하거나, 선택하지 않거나
             backtracking(total + arr[depth], depth);

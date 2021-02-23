@@ -3,9 +3,7 @@ package 브루트포스_백트래킹;
 import java.util.Scanner;
 
 public class ex1182_백트래킹 {
-    private static int N;
-    private static int S;
-    private static int count = 0;
+    private static int N, S, count = 0;
     private static int[] arr;
 
     public static void main(String[] args) {

@@ -24,9 +24,7 @@ public class ex2580_스도쿠 {
 			// 행과 열이 모두 채워졌을 경우 출력 후 종료
 			if (row == 9) {
 				for (int i = 0; i < 9; i++) {
-					for (int j = 0; j < 9; j++) {
-						System.out.print(arr[i][j] + " ");
-					}
+					for (int j = 0; j < 9; j++)  System.out.print(arr[i][j] + " "); 
 					System.out.println();
 				}
 				// 출력 뒤 시스템을 종료한다.
@@ -51,15 +49,11 @@ public class ex2580_스도쿠 {
 	public static boolean possibility(int row, int col, int value) {
 		// 같은 행에 있는 원소들 검사
 		for (int i = 0; i < 9; i++) {
-			if (arr[row][i] == value) {
-				return false;
-			}
+			if (arr[row][i] == value)  return false; 
 		}
 		// 같은 열에 있는 원소들 중 검사
 		for (int i = 0; i < 9; i++) {
-			if (arr[i][col] == value) {
-				return false;
-			}
+			if (arr[i][col] == value)  return false; 
 		}
 		// 3*3 칸에 중복되는 원소가 있는지 검사
 		int set_row = (row / 3) * 3;	
@@ -67,9 +61,7 @@ public class ex2580_스도쿠 {
 	 
 		for (int i = set_row; i < set_row + 3; i++) {
 			for (int j = set_col; j < set_col + 3; j++) {
-				if (arr[i][j] == value) {
-					return false;
-				}
+				if (arr[i][j] == value) return false; 
 			}
 		}
 		return true;	// 중복되는 것이 없을 경우 true 반환

@@ -1,5 +1,5 @@
 package 팀대항전_21Winter;
-
+//탐색범위 하나 적게 잡아서 틀렸었던 문제
 import java.util.*;
 
 public class ex19605 {

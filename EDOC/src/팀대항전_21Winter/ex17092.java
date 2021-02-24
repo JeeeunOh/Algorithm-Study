@@ -1,5 +1,5 @@
 package 팀대항전_21Winter;
-
+// 색칠공부 문제, 노가다 실패
 import java.util.*;
 
 public class ex17092 {

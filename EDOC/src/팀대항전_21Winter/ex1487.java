@@ -1,5 +1,5 @@
 package 팀대항전_21Winter;
-
+// 세준이가 안 팔수도 있다는 것 유의
 import java.util.*;
 
 public class ex1487 {

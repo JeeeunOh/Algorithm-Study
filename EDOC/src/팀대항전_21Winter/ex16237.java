@@ -1,5 +1,5 @@
 package 팀대항전_21Winter;
-
+// 이삿짐센터, 수학공식 아직도 모르겠음
 import java.util.*;
 
 public class ex16237 {

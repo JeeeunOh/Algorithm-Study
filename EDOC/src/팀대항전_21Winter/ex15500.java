@@ -1,5 +1,5 @@
 package 팀대항전_21Winter;
-
+// 이상한 하노이탑, 스택 이용 공식 구현 실패
 import java.util.*;
 
 public class ex15500 {

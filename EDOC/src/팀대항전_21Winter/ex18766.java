@@ -1,5 +1,5 @@
 package 팀대항전_21Winter;
-
+// 카드바꿔치기 해시맵으로 구현
 import java.util.*;
 
 public class ex18766 {

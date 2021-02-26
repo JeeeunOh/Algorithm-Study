@@ -17,8 +17,8 @@ public class ex2805 {
         int left =1; // 절단기 최소 높이
         int right =arr[n-1]; // 절단기 최대 높이 -> 나무 최대 높이
         long height =0;
-        int mid =0;
-        int ans=0;
+        int mid =0, ans=0;
+        
         while(left <= right){
             height =0;
             mid =(left+right)/2;

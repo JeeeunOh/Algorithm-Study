@@ -9,12 +9,11 @@ public class ex2470 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		int[] A = new int[N];
-		
+		// 입력 받고 정렬하기
 		String[] arr = br.readLine().split(" ");
-		for(int i=0 ; i<N ; i++) {
-			A[i] = Integer.parseInt(arr[i]);
-		}
+		for(int i=0 ; i<N ; i++)  A[i] = Integer.parseInt(arr[i]); 
 		Arrays.sort(A);
+		
 		int start=0, end = A.length-1;
 		long result = Integer.MAX_VALUE;
 		int answer1=0,answer2=0;

@@ -50,6 +50,7 @@ class ex2473 {
                 max = absSum;
             }
  
+            // 최대한 0에 가깝게 만들기 위해서
             if(sum > 0) right--;
             else left++;
         }

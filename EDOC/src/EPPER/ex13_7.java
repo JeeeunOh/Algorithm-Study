@@ -1,5 +1,5 @@
 package EPPER;
-
+//이중포인터문제 아마...?
 import java.util.*;
 
 public class ex13_7 {

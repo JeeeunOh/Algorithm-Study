@@ -9,7 +9,7 @@ public class ex11_7 {
 		double[] arr = new double[num];
 		for(int i=0 ; i<num ; i++) {
 			arr[i]=sc.nextInt();
-		}
+		}// ÆùÄ¿¹Ô
 		Arrays.sort(arr);
 		double ans=0;
 		int k=0;

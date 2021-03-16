@@ -6,8 +6,8 @@ import java.util.*;
 
 public class ex15_7_comparable {
 	public static class Person implements Comparable<Person>{
-		int start;
-		int end;
+		int start; // 시작시간
+		int end; // 끝나는시간
 		public Person(int start, int end) {
 			this.start=start;
 			this.end=end;
@@ -21,22 +21,23 @@ public class ex15_7_comparable {
 	}
 	
 	  public static int solution(Person p[], int num){      
-	      int answer = 0, N = num; // N은 학생 수
-	      int i, j, tmp, e1 = -1, e2 = -1; // e1, e2는 각 자리를 의미합니다.
+	      int answer = 0, N = num; 
+	      int i, j, tmp, e1 = -1, e2 = -1;
 	      
-	      Arrays.sort(p);	      
+	      Arrays.sort(p); // 위에서 조건 정한대로 정렬
 	      
 	      for(i = 0; i < N; i++){
-	          if(e1 <= p[i].start){ // 1번 자리가 비어있다면 학생을 할당합니다.
-	              e1 = p[i].end; // 1번 자리에 학생의 종료 시간을 대입합니다.
-	              answer++; 
-	          }else if(e2 <= p[i].start){ // 2번 자리가 비어 있다면 학생을 할당합니다.
-	              e2 = e1; // 이미 자리에 할당된 학생의 종료 시간을 보존합니다.
-	              e1 = p[i].end; // 1번 자리에 학생의 종료 시간을 대입합니다.
+	          if(e1 <= p[i].start){ // 1번 좌석 비어있다면, 
+	              e1 = p[i].end; // 이용 끝나는 시간을 해당학생 끝나는 시간으로 재설정
+	              answer++;
+	          }else if(e2 <= p[i].start){ //1번 좌석이 차 있을 때, 2번 좌석이 비어있다면
+	        	  // e2=p[i].end 는 오류남
+	        	  e2 = e1; 
+	              e1 = p[i].end; //2번좌석에 사람 집어넣고, 1번과 2번 좌석 사람을 바꿈
 	              answer++;
 	          }
 	      }
-	      return answer; // 학생이 할당된 횟수를 저장한 answer를 반환합니다.
+	      return answer; 
 	  }
 	  
 	  public static void main(String args[]) {

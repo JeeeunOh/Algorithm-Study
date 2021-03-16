@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ex15_7 {
 	  public static int solution(int s[], int e[], int num){      
-	      int answer = 0, N = num; // N은 학생 수 입니다.
+	      int answer = 0, N = num; // N은 학생 수
 	      int i, j, tmp, e1 = -1, e2 = -1; // e1, e2는 각 자리를 의미합니다.
 	      
 	      for(i = 0; i < N; i++){ // 학생들을 종료시간 오름차순으로 정렬합니다.
@@ -21,7 +21,7 @@ public class ex15_7 {
 	          }
 	      }
 	      
-	      for(i = 0; i < N; i++){ // 학생 수 만큼 반복합니다.
+	      for(i = 0; i < N; i++){
 	          if(e1 <= s[i]){ // 1번 자리가 비어있다면 학생을 할당합니다.
 	              e1 = e[i]; // 1번 자리에 학생의 종료 시간을 대입합니다.
 	              answer++; // 학생이 1명 할당 되었으니 ++를 사용하여 answer += 1 을 합니다.
@@ -38,10 +38,12 @@ public class ex15_7 {
 	  public static void main(String args[]) {
 		  Scanner sc = new Scanner(System.in);
 		  int N = sc.nextInt();
-		    int s[] = new int[N];
-		    int e[] = new int[N];
-		    for(int i=0 ; i<N ; i++) s[i]=sc.nextInt();
-		    for(int i=0 ; i<N ; i++) e[i]=sc.nextInt();
-		    System.out.println(solution(s, e, N));
+		  
+		  int s[] = new int[N];
+		  int e[] = new int[N];
+		  for(int i=0 ; i<N ; i++) s[i]=sc.nextInt();
+		  for(int i=0 ; i<N ; i++) e[i]=sc.nextInt();
+		  
+		  System.out.println(solution(s, e, N));
 	  } 
 	}

@@ -9,7 +9,7 @@ public class ex16_2 {
 		int[] arr = new int [50];
 		Arrays.fill(arr, 0);
 		if(num==1) return "NO";
-		int calc=num;
+		int calc=num; // ÆùÄ¿¹Ô
 		for(int i = 2 ; i <=num/2 ; i++) {
 			if(calc%i==0) { System.out.println(i);calc/=i; temp+=i; }
 		}

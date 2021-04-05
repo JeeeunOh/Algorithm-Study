@@ -2,7 +2,7 @@ package EPPER;
 
 import java.util.*;
 
-public class ex16_2 {
+public class ex16_2 {//
 	static String solution(int num) {
 		String ans="";
 		int temp=0;

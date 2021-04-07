@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 	for (int i = 1; 1; i++) { //무한루프 돌리기
-		string s; //주어진 문자열
+		string s; //주어진 문자열//시험
 		int cnt = 0; //총 연산횟수
 		stack<char> stk; //문자열의 문자를 넣는 스택
 		cin >> s;

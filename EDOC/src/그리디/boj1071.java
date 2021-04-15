@@ -16,7 +16,7 @@ public class boj1071 {
 		arr = new int[n];
 		for(int i=0 ; i<n ; i++) arr[i]=sc.nextInt();
 		
-		Arrays.sort(arr);  // 사전순으로 가장 앞에있는 것 최종 출력 위해 오름차순 배열
+		Arrays.sort(arr);  // 사전순으로 가장 앞에있는 것 최종 출력 위해 오름차순 배열한다
 		
 		int k;
 		for (int i = 0; i < n - 1; i++) {

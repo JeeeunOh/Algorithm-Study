@@ -1,32 +1,31 @@
 package unit03_기초데이터구조;
 
-//리스트노드 구현
-class ListNode{
-    String data;    // 데이터 저장 변수
-    ListNode link;    // 다른 노드를 참조할 링크 노드
-    
-    ListNode() {
-        this.data = null;
-        this.link = null;
-    }
-    
-    ListNode(String data) {
-        this.data = data;
-        this.link = null;
-    }
-    
-    ListNode(String data, ListNode link) {
-        this.data = data;
-        this.link = link;
-    }
-    
-    String getData() {
-        return this.data;
-    }
-}
-
 //연결리스트 구성
 public class LinkedList {
+	//리스트노드 구현
+	class ListNode{
+	    String data;    // 데이터 저장 변수
+	    ListNode link;    // 다른 노드를 참조할 링크 노드
+	    
+	    ListNode() {
+	        this.data = null;
+	        this.link = null;
+	    }
+	    
+	    ListNode(String data) {
+	        this.data = data;
+	        this.link = null;
+	    }
+	    
+	    ListNode(String data, ListNode link) {
+	        this.data = data;
+	        this.link = link;
+	    }
+	    
+	    String getData() {
+	        return this.data;
+	    }
+	}
     private ListNode head;    // ListNode 타입의 head 노드 인스턴스 변수
     
     // LinkedList 생성자

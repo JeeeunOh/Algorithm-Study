@@ -2,7 +2,7 @@ package unit03_기초데이터구조;
 
 //리스트노드 구현
 class ListNode{
-    private String data;    // 데이터 저장 변수
+    String data;    // 데이터 저장 변수
     public ListNode link;    // 다른 노드를 참조할 링크 노드
     
     public ListNode() {
@@ -31,7 +31,13 @@ public class LinkedList {
     
     // LinkedList 생성자
     public LinkedList() {
-        head = null;    // head 노드 초기화
+        head = null;    // init()함수 생성시 소환
+    }
+    
+  // Node 삽입 (처음에 삽입)
+    public void insertFirst(LinkedList l,  String data) {       
+        ListNode newNode = new ListNode(data);    // 새로운 노드 생성
+        newNode.link = l.head;
     }
     
     // Node 삽입 (중간에 삽입)
@@ -52,6 +58,11 @@ public class LinkedList {
             }
             tempNode.link = newNode;
         }
+    }
+ // Node 삭제(처음 노드 삭제)
+    public void deleteFirst(LinkedList L) {    
+    	ListNode second = L.head.link; // 두번째노드
+    	L.head = second; // 두번째노드를 head로 바꿈
     }
     
     // Node 삭제(중간 노드 삭제)
@@ -101,6 +112,18 @@ public class LinkedList {
             preNode.link = null;
         }
     }
+    //pos자리의 data 반환
+    static String  get(LinkedList L, int pos) {
+    	ListNode p = L.head;
+    	for(int i = 0 ; i < pos ; i++) p = p.link;
+    	return p.getData();
+    }
+    //pos자리에 item 집어넣기
+    public static void set(LinkedList L, int pos, String item) {
+    	ListNode p = L.head;
+    	for(int i = 1 ; i < pos ; i++) p = p.link;
+    	p.data = item;
+    }
     
     // Node 탐색
     public ListNode searchNode(String data) {
@@ -135,6 +158,7 @@ public class LinkedList {
         }
         head = currentNode;    // currentNode가 마지막 노드를 가리킬 때, head는 currentNode를 참조하도록 함.
     }
+    
     // 연결 리스트에 저장된 모든 데이터를 출력
     public void printList() {
         ListNode tempNode = this.head;    // tempNode에 head가 가리키는 첫번째 노드를 할당
@@ -147,26 +171,32 @@ public class LinkedList {
     }
  
     public static void main(String args[]) {
-        LinkedList linkedList = new LinkedList();    // 연결 리스트 생성
+        LinkedList L = new LinkedList();    // 연결 리스트 생성
         String str = "wed";
         
-        linkedList.insertNode("sun");  linkedList.insertNode("mon");
-        linkedList.insertNode("tue"); linkedList.insertNode("wed");
-        linkedList.insertNode("thu");  linkedList.insertNode("fri");
-        linkedList.insertNode("sat"); linkedList.printList();
+        L.insertNode("sun");  L.insertNode("mon");
+        L.insertNode("tue"); L.insertNode("wed");
+        L.insertNode("thu");  L.insertNode("fri");
+        L.insertNode("sat"); L.printList(); // 한번 다 출력
         
-        System.out.println(linkedList.searchNode(str).getData());
+        System.out.println(L.searchNode(str).getData()); // wed 찾아서 출력
         
-        linkedList.deleteNode(linkedList.searchNode(str).getData());
-        linkedList.printList();
+        L.deleteNode(L.searchNode(str).getData()); // wed찾아서 삭제
+        L.printList(); // 삭제 후 출력
         
         str = "sun";
         
-        linkedList.deleteNode(linkedList.searchNode(str).getData());
-        linkedList.printList();
+        L.deleteNode(L.searchNode(str).getData()); //sun 삭제 후 출력
+        L.printList();
         
-        linkedList.reverseList();
-        linkedList.printList();
+        System.out.println(get(L, 2)); // 2번째 자리 출력
+        L.printList();
+        
+        set(L, 2, "new"); // 2번째 자리 바꾸기
+        L.printList();
+        
+        L.reverseList();
+        L.printList();
     }
     
 }

@@ -3,24 +3,24 @@ package unit03_기초데이터구조;
 //리스트노드 구현
 class ListNode{
     String data;    // 데이터 저장 변수
-    public ListNode link;    // 다른 노드를 참조할 링크 노드
+    ListNode link;    // 다른 노드를 참조할 링크 노드
     
-    public ListNode() {
+    ListNode() {
         this.data = null;
         this.link = null;
     }
     
-    public ListNode(String data) {
+    ListNode(String data) {
         this.data = data;
         this.link = null;
     }
     
-    public ListNode(String data, ListNode link) {
+    ListNode(String data, ListNode link) {
         this.data = data;
         this.link = link;
     }
     
-    public String getData() {
+    String getData() {
         return this.data;
     }
 }
@@ -30,25 +30,25 @@ public class LinkedList {
     private ListNode head;    // ListNode 타입의 head 노드 인스턴스 변수
     
     // LinkedList 생성자
-    public LinkedList() {
+    LinkedList() {
         head = null;    // init()함수 생성시 소환
     }
     
   // Node 삽입 (처음에 삽입)
-    public void insertFirst(LinkedList l,  String data) {       
+    void insertFirst(LinkedList l,  String data) {       
         ListNode newNode = new ListNode(data);    // 새로운 노드 생성
         newNode.link = l.head;
     }
     
     // Node 삽입 (중간에 삽입)
-    public void insertNode(ListNode preNode, String data) {       
+    void insertNode(ListNode preNode, String data) {       
         ListNode newNode = new ListNode(data);    // 새로운 노드 생성
         newNode.link = preNode.link;
         preNode.link = newNode;
     }
     
     // Node 삽입 (마지막에 삽입)
-    public void insertNode(String data) {
+    void insertNode(String data) {
         ListNode newNode = new ListNode(data);    // 새로운 노드 생성
         if(head == null)  this.head = newNode;
         else { // head가 null이 아닌 경우
@@ -60,13 +60,13 @@ public class LinkedList {
         }
     }
  // Node 삭제(처음 노드 삭제)
-    public void deleteFirst(LinkedList L) {    
+    void deleteFirst(LinkedList L) {    
     	ListNode second = L.head.link; // 두번째노드
     	L.head = second; // 두번째노드를 head로 바꿈
     }
     
     // Node 삭제(중간 노드 삭제)
-    public void deleteNode(String data) {
+   void deleteNode(String data) {
         ListNode preNode = head;
         ListNode tempNode = head.link; 
         if(data.equals( preNode.getData() )) {
@@ -91,7 +91,7 @@ public class LinkedList {
     }
     
     // Node 삭제(마지막 노드 삭제)
-    public void deleteNode() {
+   void deleteNode() {
         ListNode preNode;
         ListNode tempNode;
         
@@ -119,14 +119,14 @@ public class LinkedList {
     	return p.getData();
     }
     //pos자리에 item 집어넣기
-    public static void set(LinkedList L, int pos, String item) {
+    static void set(LinkedList L, int pos, String item) {
     	ListNode p = L.head;
     	for(int i = 1 ; i < pos ; i++) p = p.link;
     	p.data = item;
     }
     
     // Node 탐색
-    public ListNode searchNode(String data) {
+    ListNode searchNode(String data) {
         ListNode tempNode = this.head;    // temp 노드에 head가 가리키는 첫 번째 할당.
         
         while(tempNode != null) {
@@ -140,7 +140,7 @@ public class LinkedList {
         return tempNode;
     }
     // 리스트의 노드를 역순으로 구성
-    public void reverseList() {
+    void reverseList() {
         ListNode nextNode = head;    // head가 참조하는 첫번째 노드를 할당.
         ListNode currentNode = null;
         ListNode preNode = null;
@@ -160,7 +160,7 @@ public class LinkedList {
     }
     
     // 연결 리스트에 저장된 모든 데이터를 출력
-    public void printList() {
+    void printList() {
         ListNode tempNode = this.head;    // tempNode에 head가 가리키는 첫번째 노드를 할당
         // tempNode가 null이 아닐 때까지 반복하여 출력
         while(tempNode != null) {
@@ -170,7 +170,7 @@ public class LinkedList {
         System.out.println();
     }
  
-    public static void main(String args[]) {
+    static void main(String args[]) {
         LinkedList L = new LinkedList();    // 연결 리스트 생성
         String str = "wed";
         

@@ -1,5 +1,6 @@
 package unit06_赛苞赛沥纺;
-
+//弥家赛 ; 弥家蔼捞 风飘, 弥措赛 : 弥措蔼捞 风飘
+//咯扁急 弥家赛 备泅
 public class 赛ADT {
 	static int MAX_ELEMENT = 100;
 	static class Heap{
@@ -30,6 +31,26 @@ public class 赛ADT {
 		System.out.println();
 	}
 	
+	static void downHeap(Heap h) {
+		int temp = h.arr[1];
+		int parent = 1, child=2;
+		while(child<=h.size) {
+			if(child<h.size && h.arr[child] > h.arr[child+1]) child++;
+			if(temp <= h.arr[child]) break;
+			h.arr[parent] = h.arr[child];
+			parent = child;
+			child*=2;
+		}
+		h.arr[parent]=temp;
+	}
+	static int removeMin(Heap h) {
+		int key = h.arr[1];
+		h.arr[1]=h.arr[h.size];
+		h.size--;
+		downHeap(h);
+		return key;
+	}
+	
 	public static void main(String[] args) {
 		Heap h = new Heap();
 		init(h);
@@ -44,6 +65,7 @@ public class 赛ADT {
 		insertItem(h,15);
 		insertItem(h, 9);
 		printHeap(h);
+		System.out.printf("%d",removeMin(h));
 	}
 
 }

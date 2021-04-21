@@ -1,8 +1,7 @@
 package unit04_기본추상자료형;
-// 이중연결리스트 사용, 대충 넘어감
-public class 집합ADT {
+// 단일연결리스트  or 배열
+public class 리스트ADT {
 	public static void main(String[] args) {
 
 	}
-
 }

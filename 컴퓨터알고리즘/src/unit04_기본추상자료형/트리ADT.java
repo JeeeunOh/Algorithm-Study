@@ -1,5 +1,5 @@
 package unit04_기본추상자료형;
-// 여기서는 이진트리, 38페이지부터 다시 하기
+// 여기서는 이진트리, 38페이지부터 다시 하자
 public class 트리ADT {
 	public class Node {
         private int data;

@@ -21,16 +21,15 @@ static void selectionSort() {
 		temp = list[indexMin]; 
 		list[indexMin] = list[i]; 
 		list[i] = temp;
-		//for(int k= 0 ; k<MAX_SIZE ; k++) System.out.printf("%d ", list[k]);
-		//System.out.println();
 		} 
 	return;
 }
 
-//삽입정렬 - 왜 안돼??
+//삽입정렬 
 static void insertion_sort() {
 	int i, j, save;
-	for(i = 1; i < MAX_SIZE ; MAX_SIZE++) {
+	
+	for(i = 1; i < MAX_SIZE ; i++) {
 		save = list[i];
 		j=i-1;
 		while(j>=0 && list[j]>save) {
@@ -39,6 +38,7 @@ static void insertion_sort() {
 		}
 		list[j+1]=save;
 	}
+	
 	for(int k= 0 ; k<MAX_SIZE ; k++) System.out.printf("%d ", list[k]);
 	return;
 }
@@ -52,8 +52,11 @@ static void insertion_sort() {
 				if(list[i] == list[j]) i--;
 			}
 		}
+		System.out.println("---선택정렬 전---");
 		for(int i = 0 ; i<MAX_SIZE ; i++) System.out.printf("%d ", list[i]);
 		System.out.println();
+		
+		System.out.println("---선택정렬 후---");
 		selectionSort();
 		for(int i = 0 ; i<MAX_SIZE ; i++) System.out.printf("%d ", list[i]);
 		System.out.println();
@@ -66,10 +69,12 @@ static void insertion_sort() {
 				if(list[i] == list[j]) i--;
 			}
 		}
+		System.out.println("---삽입정렬 전---");
 		for(int i = 0 ; i<MAX_SIZE ; i++) System.out.printf("%d ", list[i]);
 		System.out.println();
+		
+		System.out.println("---삽입정렬 후---");
 		insertion_sort();
-		for(int i = 0 ; i<MAX_SIZE ; i++) System.out.printf("%d ", list[i]);
 		System.out.println();
 	}
 }

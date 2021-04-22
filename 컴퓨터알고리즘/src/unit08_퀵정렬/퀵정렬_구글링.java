@@ -4,18 +4,13 @@ package unit08_퀵정렬;
 import java.util.Random;
 
 public class 퀵정렬_구글링{
+	
 	static int MAX_SIZE = 10;
 	
-	static int partition(int arr[], int left, int right) {
-
-		int pivot = arr[(left + right) / 2];
-
+	static int partition(int arr[], int left, int right) { // 0 이 빨강, 1이 파랑
 		while (left < right) {
-			while ((arr[left] < pivot) && (left < right))
-				left++;
-			while ((arr[right] > pivot) && (left < right))
-				right--;
-
+			while ((arr[left] !=0) && (left < right)) left++;
+			while ((arr[right] !=1) && (left < right)) right--;
 			if (left < right) {
 				int temp = arr[left];
 				arr[left] = arr[right];
@@ -27,37 +22,28 @@ public class 퀵정렬_구글링{
 	}
 
 	static void quickSort(int arr[], int left, int right) {
-
 		if (left < right) {
 			int pivotNewIndex = partition(arr, left, right);
-
 			quickSort(arr, left, pivotNewIndex - 1);
 			quickSort(arr, pivotNewIndex + 1, right);
 		}
-
 	}
 	
 	public static void main(String[] args) {
 		int[] list = new int[MAX_SIZE];
-		for(int i=0 ; i<MAX_SIZE ; i++) {
-			Random ran = new Random();
-			list[i] = ran.nextInt(MAX_SIZE); 
-			for (int j=0 ; j < i ; j++)
-				if(list[i] == list[j]) i--;
-		} // 리스트에 중복x값 집어넣음
-		for (int i : list) {
-			System.out.print(i + " ");
-		}
+		list[0]=0;list[1]=1;
+		list[2]=0;list[3]=1;
+		list[4]=0;list[5]=1;
+		list[6]=0;list[7]=1;
+	list[8]=0;list[9]=1; // 0 이 빨강, 1이 파랑
+		
+		for (int i : list ) System.out.print(i + " "); 
 		System.out.println();
 		
 		quickSort(list, 0, MAX_SIZE-1);
 		
 		System.out.printf("결과 : ");
-
-		for (int i : list) {
-			System.out.print(i + " ");
-		}
+		for (int i : list) System.out.print(i + " "); 
 		
 	}
-
 }

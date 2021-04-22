@@ -43,14 +43,8 @@ public class ÄüÁ¤·ÄADT {
 		while (left < right) {
 			while ((arr[left] < pivot) && (left < right)) left++;
 			while ((arr[right] > pivot) && (left < right)) right--;
-
-			if (left < right) {
-				int temp = arr[left];
-				arr[left] = arr[right];
-				arr[right] = temp;
-			}
+			if (left < right) SWAP(left, right); 
 		}
-
 		return left;
     }
 	

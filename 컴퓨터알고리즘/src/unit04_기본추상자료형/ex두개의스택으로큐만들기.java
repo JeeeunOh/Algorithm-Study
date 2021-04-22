@@ -1,8 +1,13 @@
 package unit04_기본추상자료형;
 // 설명만 하고 구현 안해주심
-import unit04_기본추상자료형.스택ADT.Stack;
+
+import java.util.*;
 
 public class ex두개의스택으로큐만들기 {
+	static Scanner sc = new Scanner(System.in);
+	static Stack st1 = new Stack();
+	static Stack st2 = new Stack();
+	static int num = sc.nextInt();
 	static class Node{
 		int item ;
 		Node next;
@@ -25,17 +30,18 @@ public class ex두개의스택으로큐만들기 {
 		s.size++;
 	}
 	//pop
-	static void pop(Stack s) {
+	static int pop(Stack s) {
 		int result;
 		Node tmp;
 		if(isEmpty(s)) {
 			System.out.println("Empty");
-			return;
+			return -1;
 		}
 		tmp = s.top;
 		result = tmp.item;
 		s.top =tmp.next;
 		s.size--;
+		return tmp.item;
 	}
 	//printAll
 	static void printAll(Stack s) {
@@ -67,7 +73,33 @@ public class ex두개의스택으로큐만들기 {
 		System.out.printf("top : %d", s.top.item);
 		System.out.println();
 	}
-	public static void main(String[] args) {
+	//top
+		static void enqueue(Stack s, int n) {
+			push(st1, n);
+			if(!isEmpty(st1)) System.out.printf("%d  ", s.top.item);
+			if(n==num-1) {
+				for(int j = 0 ; j< num-1 ; j++) {
+					int ss = pop(st1);
+					push(st2, ss);
+				}
+			} 
+		}
 		
+		static void dequeue() {
+			System.out.println();
+			if(isEmpty(st2)) {
+				System.out.println("Stack Empty");
+				return;
+			}
+			for(int i = 1 ; i<= num -1; i++)
+				System.out.printf("%d  ", pop(st2));
+			System.out.println();
+		}
+	
+	public static void main(String[] args) {
+		init(st1); init(st2);
+		for(int i = 1 ; i<= num ; i++) enqueue(st1, i);
+		System.out.println();
+		dequeue();
 	}
 }

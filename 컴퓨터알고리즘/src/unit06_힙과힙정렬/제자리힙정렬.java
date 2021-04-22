@@ -1,5 +1,5 @@
 package unit06_Èü°úÈüÁ¤·Ä;
-
+// ¿À·ù³²
 import java.util.Random;
 
 //

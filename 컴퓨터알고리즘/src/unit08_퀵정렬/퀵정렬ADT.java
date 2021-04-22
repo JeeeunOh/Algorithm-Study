@@ -1,17 +1,17 @@
 package unit08_퀵정렬;
 // 분할정복기법과 재귀알고리즘 이용 정렬 알고리즘
-// 오류남, 왜??????????
+// 오류남, 왜?????????? m-> 해결
 import java.util.Random;
 
 public class 퀵정렬ADT {
 	static int MAX_SIZE = 10;
+	static int[] list = new int[MAX_SIZE];
 	
-	static void SWAP(int[] list, int x, int y) {
+	static void SWAP(int x, int y) {
 		int t = list[x];
 		list[x] = list[y];
 		list[y]  = t;
-		for (int i=0 ; i<MAX_SIZE ; i++)
-			System.out.printf("[%d] ", list[i]);
+		for (int i=0 ; i<MAX_SIZE ; i++) System.out.printf("[%d] ", list[i]);
 		System.out.println();
 	}
 	
@@ -37,18 +37,21 @@ public class 퀵정렬ADT {
 		return high;
 		}*/
 	
-	private static int partition(int[] list, int low, int high) {
-        int pivot = list[(low + high) / 2];
-        while (low <= high) {
-            while (list[low] < pivot) low++;
-            while (list[high] > pivot) high--;
-            if (low <= high) {
-                SWAP(list, low, high);
-                low++;
-                high--;
-            }
-        }
-        return low;
+	private static int partition(int[] arr, int left, int right) {
+		int pivot = arr[(left + right) / 2];
+
+		while (left < right) {
+			while ((arr[left] < pivot) && (left < right)) left++;
+			while ((arr[right] > pivot) && (left < right)) right--;
+
+			if (left < right) {
+				int temp = arr[left];
+				arr[left] = arr[right];
+				arr[right] = temp;
+			}
+		}
+
+		return left;
     }
 	
 	static void quick_sort(int[] list,  int left, int right) {
@@ -60,7 +63,6 @@ public class 퀵정렬ADT {
 	} // 퀵정렬
 	
 	public static void main(String[] args) {
-		int[] list = new int[MAX_SIZE];
 		for(int i=0 ; i<MAX_SIZE ; i++) {
 			Random ran = new Random();
 			list[i] = ran.nextInt(MAX_SIZE); 

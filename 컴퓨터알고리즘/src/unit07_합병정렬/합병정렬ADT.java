@@ -1,5 +1,5 @@
 package unit07_합병정렬;
-// 배열에 대한 합병 정렬
+//ex. 배열에 대한 합병 정렬
 import java.util.Random;
 
 // 분할 -> 재귀 -> 통치
@@ -14,9 +14,10 @@ public class 합병정렬ADT {
 		int l;
 		
 		while(i<=mid && j <=right) {
-			if(list[i]<=list[j]) sorted[k++] = list[i++];
-			else sorted[k++] = list[j++];
+			if(list[i]<=list[j]) sorted[k++] = list[i++]; //left++
+			else sorted[k++] = list[j++]; // mid+1을 ++
 		}
+		
 		if(i>mid) for(l = j ; l<=right ; l++) sorted[k++] = list[l];
 		else for(l=i ; l<=mid ; l++) sorted[k++] = list[l];
 		for(l=left ; l<=right ; l++) list[l] = sorted[l];

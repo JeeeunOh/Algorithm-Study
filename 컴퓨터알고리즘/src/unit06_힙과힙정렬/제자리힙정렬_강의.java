@@ -2,8 +2,6 @@ package unit06_힙과힙정렬;
 // 강의자료대로 교수님이 짜주신것
 import java.util.*;
 
-import unit06_힙과힙정렬.제자리힙정렬.Heap;
-
 public class 제자리힙정렬_강의 {
 	static int MAX_ELEMENT = 100;
 	static Heap h = new Heap();

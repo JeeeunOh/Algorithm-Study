@@ -5,6 +5,7 @@ import java.util.*;
 public class ex´©ÀûÆò±Õ {
 	static int[] X, A;
 	static int n;
+	
 	public static int Alg() {
 		for(int i = 0 ; i< n ; i++) {
 			int sum=0;
@@ -12,12 +13,14 @@ public class ex´©ÀûÆò±Õ {
 				sum+=X[j];
 				System.out.print(sum+" ");
 			}
-			System.out.println();
+			 System.out.println();
 			A[i]=sum/(i+1);
 			System.out.println(A[i]);
 		}
+		
 		return A[n-1];
 	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();

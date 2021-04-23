@@ -1,6 +1,7 @@
 package unit01;
 
 public class ex비트행렬최대1행찾기 {
+	// 최대 2n회의 비교 -> O(N)알고리즘
 	static int mostOnes(int[][] A , int n) {
 		int i=0, j = 0;
 		while(true) {
@@ -9,7 +10,7 @@ public class ex비트행렬최대1행찾기 {
 				if(j==n-1) return i;
 			}
 			int row=i;
-			while(A[i][j]==0) {
+			while(A[i][j]==0) { // 0나오면 열 유지하면서 다음행으로 넘어감
 				i++;
 				if(i==n-1) return row;
 			}

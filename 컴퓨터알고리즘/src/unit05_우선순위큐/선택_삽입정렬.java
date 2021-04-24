@@ -2,13 +2,13 @@ package unit05_우선순위큐;
 
 import java.util.*;
 
-// 선택정렬, 제자리정렬
+// 제자리정렬 - 선택정렬 삽입정렬
 
 public class 선택_삽입정렬 {
 	static int MAX_SIZE = 15;
 	static int[] list = new int[MAX_SIZE];
 
-//선택정렬
+//선택정렬; removemin, minKey, minElement에 유리
 static void selectionSort() { 
 	int indexMin, temp; 
 	// 한 자리를 정해놓고 그 자리에 들어갈 최소값을 탐색해서
@@ -27,7 +27,7 @@ static void selectionSort() {
 	return;
 }
 
-//삽입정렬 
+//삽입정렬 : 초기리스트가 완전히 또는 거의 정렬된 경우 ; insertItem에 유리
 static void insertion_sort() {
 	int i, j, save;
 	//배열의 모든 요소를 앞에서부터 차례대로 이미 정렬된 배열과 비교

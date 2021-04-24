@@ -7,7 +7,7 @@ public class 飘府ADT {
 	}
 	static void preOrder(Tree root) {
 		if (root!=null) {
-			System.out.println(root.data);
+			System.out.print(root.data+" ");
 			preOrder(root.left);
 			preOrder(root.right);
 		}
@@ -15,7 +15,7 @@ public class 飘府ADT {
 	static void inOrder(Tree root) {
 		if (root!=null) {
 			inOrder(root.left);
-			System.out.println(root.data);
+			System.out.print(root.data+" ");
 			inOrder(root.right);
 		}
 	}
@@ -23,7 +23,7 @@ public class 飘府ADT {
 		if (root!=null) {
 			postOrder(root.left);
 			postOrder(root.right);
-			System.out.println(root.data);
+			System.out.print(root.data+" ");
 		}
 	}
 
@@ -36,8 +36,11 @@ public class 飘府ADT {
 		t3.data = 3;
 		
 		preOrder(t1);
+		System.out.println();
 		inOrder(t1);
+		System.out.println();
 		postOrder(t1);
+		System.out.println();
 		
 
 	}

@@ -11,10 +11,8 @@ public class ex색분리{
 		int pivot = arr[(left + right) / 2];
 
 		while (left < right) {
-			while ((arr[left] < pivot) && (left < right))
-				left++;
-			while ((arr[right] > pivot) && (left < right))
-				right--;
+			while ((arr[left] < pivot) && (left < right)) left++;
+			while ((arr[right] > pivot) && (left < right)) right--;
 
 			if (left < right) {
 				int temp = arr[left];
@@ -22,7 +20,6 @@ public class ex색분리{
 				arr[right] = temp;
 			}
 		}
-
 		return left;
 	}
 
@@ -30,7 +27,6 @@ public class ex색분리{
 
 		if (left < right) {
 			int pivotNewIndex = partition(arr, left, right);
-
 			quickSort(arr, left, pivotNewIndex - 1);
 			quickSort(arr, pivotNewIndex + 1, right);
 		}

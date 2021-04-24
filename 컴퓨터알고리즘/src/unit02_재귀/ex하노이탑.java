@@ -4,7 +4,7 @@ public class ex하노이탑 {
 	static void hanoi(int n) {
 		rHanoi(n, "A", "B", "C");
 		return;
-	}
+	} 
 	static void rHanoi(int n, String from, String aux, String to) {
 		if(n==1) {
 			System.out.println("move from "+ from + " to "+ to);

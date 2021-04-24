@@ -4,7 +4,7 @@ import java.util.*;
 
 // 선택정렬, 제자리정렬
 
-public class 제자리정렬_수업 {
+public class 선택_삽입정렬 {
 	static int MAX_SIZE = 15;
 	static int[] list = new int[MAX_SIZE];
 

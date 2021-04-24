@@ -1,7 +1,8 @@
 package unit06_赛苞赛沥纺;
+
 //弥家赛 ; 弥家蔼捞 风飘, 弥措赛 : 弥措蔼捞 风飘
 //咯扁急 弥家赛 备泅
-public class 赛ADT {
+public class 弥家赛ADT {
 	static int MAX_ELEMENT = 100;
 	static class Heap{
 		int[] arr = new int[MAX_ELEMENT];

@@ -23,8 +23,8 @@ public class ex기간 {
 	static void push(int n) {
 		Node newNode = new Node();
 		newNode.item = n;
-		newNode.next = st.top;
-		st.top = newNode;
+		newNode.next = st.top; // 새로운 노드 다음 노드가 스택 젤 위
+		st.top = newNode; // 스택 젤 위는 새로운 노드
 		st.size++;
 	}
 	//pop
@@ -89,26 +89,21 @@ public class ex기간 {
 		while(isEmpty()) pop();
 		return;
 	}
+	
 	public static void main(String[] args) {
-		X[0]=6;
-		X[1]=3;
-		X[2]=4;
-		X[3]=2;
-		X[4]=5;
-		X[5]=3;
+		X[0]=6; X[1]=3;
+		X[2]=4; X[3]=2;
+		X[4]=5; X[5]=3;
 		
 		spans();
-		for(int i = 0 ; i < SIZE ; i++) {
-			System.out.printf("[%d] ", S[i]);
-		}
+		for(int i = 0 ; i < SIZE ; i++) System.out.printf("[%d] ", S[i]); 
 		System.out.println();
 		
+		X[0]=6; X[1]=3;
+		X[2]=4; X[3]=2;
+		X[4]=5; X[5]=3;
 		spans2();
-		for(int i = 0 ; i < SIZE ; i++) {
-			System.out.printf("[%d] ", S[i]);
-		}
+		for(int i = 0 ; i < SIZE ; i++)  System.out.printf("[%d] ", S[i]); 
 		System.out.println();
-
 	}
-
 }

@@ -11,18 +11,15 @@ public class 우선순위큐ADT_강의 {
 		String element;
 		Node next;
 	}
-	
 	static void swap(int a, int b) {
 		Node temp = p.heap[a];
 		 p.heap[a] =  p.heap[b];
 		 p.heap[b] = temp;
 	}
-	
 	static class pq{
 		Node[] heap = new Node[MAX_SIZE];
 		int count=0;
 	}
-	
 	static void insertItem(pq root, int key, String name) {
 		Node a = new Node();
 		a.element = name;

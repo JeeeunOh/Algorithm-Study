@@ -1,6 +1,5 @@
 package unit04_기본추상자료형;
 // 설명만 하고 구현 안해주심
-
 import java.util.*;
 
 public class ex두개의스택으로큐만들기 {

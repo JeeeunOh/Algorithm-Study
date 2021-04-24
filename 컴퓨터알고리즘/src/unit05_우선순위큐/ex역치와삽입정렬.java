@@ -3,7 +3,7 @@ package unit05_우선순위큐;
 import java.util.*;
 
 // 선택정렬, 제자리정렬
-// 제자리정렬 프린트가 안됨. 왜 인지 모름
+
 public class ex역치와삽입정렬 {
 	static int MAX_SIZE = 15;
 	static int[] list = new int[MAX_SIZE];
@@ -15,17 +15,13 @@ static int insertion_sort() {
 	for(i = 1; i < MAX_SIZE ; i++) {
 		save = list[i];
 		j=i-1;
-		while(j>=0 && list[j]<save) {
+		while(j>=0 && list[j]<save) { 
+			// 기준이 되는 i 바로 전부터 배열 처음까지 탐색하는데 이때 list[j]<save일때 계속 list[j]를 list[j+1]로 옮기면서 save의 자리를 찾는다.
 			list[j+1]=list[j];
 			j--;
 			cnt++;
-			System.out.printf("%3d : ",  cnt);
-			for(int k= 0 ; k<MAX_SIZE ; k++) {
-				System.out.printf("%3d  ",  list[k]);
-			}
-			System.out.println();
 		}
-		list[j+1]=save;
+		list[j+1]=save; //자리를 찾아서 while문을 빠져나오면 save를 해당자리에 저장한다.
 	}
 	
 	for(int k= 0 ; k<MAX_SIZE ; k++) System.out.printf("%d ", list[k]);

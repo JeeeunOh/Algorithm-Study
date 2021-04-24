@@ -8,19 +8,20 @@ public class 합병정렬ADT {
 	static int[] sorted = new int[MAX_SIZE];
 	
 	static void merge(int[] list, int left, int mid, int right) {
-		int i = left;
-		int j = mid+1;
-		int k = left;
+		int i = left; // 앞 배열의 시작
+		int j = mid+1; // 뒤 배열의 시작
+		int k = left; // k에 앞 배열의 시작 저장
 		int l;
 		
 		while(i<=mid && j <=right) {
-			if(list[i]<=list[j]) sorted[k++] = list[i++]; //left++
-			else sorted[k++] = list[j++]; // mid+1을 ++
+			if(list[i]<=list[j]) sorted[k++] = list[i++]; //list[i]가 앞부분인지 list[j]가 앞부분인지 판별 후 머지
+			else sorted[k++] = list[j++];
 		}
 		
-		if(i>mid) for(l = j ; l<=right ; l++) sorted[k++] = list[l];
-		else for(l=i ; l<=mid ; l++) sorted[k++] = list[l];
-		for(l=left ; l<=right ; l++) list[l] = sorted[l];
+		if(i>mid)  for(l = j ; l<=right ; l++) sorted[k++] = list[l];// j~ right를 앞에 저장
+		else  for(l=i ; l<=mid ; l++) sorted[k++] = list[l]; // i~right을 저장
+		
+		for(l=left ; l<=right ; l++) list[l] = sorted[l]; // 최종 머지된 배열을 list로 갱신해줌
 	}
 	
 	static void merge_sort(int[] list, int left, int right) {

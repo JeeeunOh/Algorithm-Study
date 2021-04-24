@@ -20,7 +20,7 @@ public class 스택ADT {
 		newNode.item = n;
 		newNode.next = s.top;
 		s.top = newNode;
-		s.size++;
+		s.size++; // 앞에서부터 저장하고, 
 	}
 	//pop
 	static void pop(Stack s) {
@@ -32,7 +32,7 @@ public class 스택ADT {
 		}
 		tmp = s.top;
 		result = tmp.item;
-		s.top =tmp.next;
+		s.top =tmp.next; //앞에서부터 뺌
 		s.size--;
 	}
 	//printAll

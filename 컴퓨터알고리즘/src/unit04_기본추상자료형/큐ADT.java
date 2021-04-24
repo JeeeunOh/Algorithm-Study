@@ -7,8 +7,8 @@ public class 큐ADT {
 		Node next;
 	}
 	static class Queue{
-		Node front;
-		Node rear;
+		Node front; // 제일 앞 노드
+		Node rear; // 제일 끝 노드
 		int size;
 	}
 	//초기화
@@ -17,7 +17,7 @@ public class 큐ADT {
 		q.size=0;
 	}
 	//push
-	static void enqueue(Queue q, int n) {
+	static void enqueue(Queue q, int n) { // 제일 끝에 push
 		Node newNode = new Node();
 		newNode.item = n;
 		newNode.next = null;
@@ -29,7 +29,7 @@ public class 큐ADT {
 		q.size++;
 	}
 	//pop
-	static void dequeue(Queue q) {
+	static void dequeue(Queue q) { // 제일 앞에서 pop
 		int result;
 		Node tmp;
 		if(isEmpty(q)) {

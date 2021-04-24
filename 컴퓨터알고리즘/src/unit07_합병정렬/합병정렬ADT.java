@@ -50,7 +50,5 @@ public class 합병정렬ADT {
 		for (int i=0 ; i<MAX_SIZE ; i++) 
 			System.out.printf("[%d] ", list[i]);
 		System.out.println(); // 정렬된 배열 생성
-		
 	}
-
 }

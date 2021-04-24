@@ -85,6 +85,7 @@ public class 제자리힙정렬_강의 {
 		//buildHeap();
 		rBuildHeap(1); // 위의 것과 이것 모두 정렬
 		printHeap();
+		
 		inPlaceHeapSort();
 		printArray();
 	}

@@ -3,7 +3,7 @@ package unit05_우선순위큐;
 import java.util.*;
 
 // 선택정렬, 제자리정렬
-// 제자리정렬 프린트가 안됨. 왜 인지 모름
+
 public class 제자리정렬_수업 {
 	static int MAX_SIZE = 15;
 	static int[] list = new int[MAX_SIZE];
@@ -11,6 +11,8 @@ public class 제자리정렬_수업 {
 //선택정렬
 static void selectionSort() { 
 	int indexMin, temp; 
+	// 한 자리를 정해놓고 그 자리에 들어갈 최소값을 탐색해서
+	// 자리의 숫자와 최솟값의 숫자를 교환함
 	for (int i = 0; i < list.length-1; i++) { 
 		indexMin = i; 
 		for (int j = i + 1; j < list.length; j++) { 
@@ -28,14 +30,16 @@ static void selectionSort() {
 //삽입정렬 
 static void insertion_sort() {
 	int i, j, save;
-	
+	//배열의 모든 요소를 앞에서부터 차례대로 이미 정렬된 배열과 비교
 	for(i = 1; i < MAX_SIZE ; i++) {
 		save = list[i];
 		j=i-1;
 		while(j>=0 && list[j]>save) {
+			// 해당 배열의 자리 찾아나감
 			list[j+1]=list[j];
 			j--;
 		}
+		// 자리 찾으면 집어넣음
 		list[j+1]=save;
 	}
 	

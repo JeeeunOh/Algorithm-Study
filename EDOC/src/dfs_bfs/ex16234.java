@@ -91,6 +91,5 @@ public class ex16234 {
             }
         }
         return sum;
-    }    
-    
+    }   
 }

@@ -1,4 +1,4 @@
-package 우선순위큐_201118;
+package 우선순위큐;
 
 import java.util.*;
 

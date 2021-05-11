@@ -1,4 +1,4 @@
-package 그래프트리_210210;
+package 그래프트리;
 
 import java.io.*;
 import java.util.*;

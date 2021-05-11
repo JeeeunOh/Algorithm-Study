@@ -1,4 +1,4 @@
-package 다익스트라_플와_210217;
+package 다익스트라플와;
 
 // 최단경로
 import java.util.*;

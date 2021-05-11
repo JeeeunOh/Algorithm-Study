@@ -1,4 +1,4 @@
-package 해시_201202;
+package 해시;
 
 import java.util.*;
 

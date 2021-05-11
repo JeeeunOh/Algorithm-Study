@@ -1,4 +1,4 @@
-package 그래프_201125;
+package 그래프;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

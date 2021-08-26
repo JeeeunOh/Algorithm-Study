@@ -1,0 +1,4 @@
+﻿  boj1427_소트인사이드.cpp
+C:\Users\ohyon\Desktop\Algorithm_Study\C++ 알고리즘\정렬\boj1427_소트인사이드\boj1427_소트인사이드\boj1427_소트인사이드.cpp(19,7): warning C4552: '/': 식의 결과가 사용되지 않습니다.
+C:\Users\ohyon\Desktop\Algorithm_Study\C++ 알고리즘\정렬\boj1427_소트인사이드\boj1427_소트인사이드\boj1427_소트인사이드.cpp(23,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  boj1427_소트인사이드.vcxproj -> C:\Users\ohyon\Desktop\Algorithm_Study\C++ 알고리즘\정렬\boj1427_소트인사이드\Debug\boj1427_소트인사이드.exe

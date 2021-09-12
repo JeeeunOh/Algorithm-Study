@@ -1,0 +1,4 @@
+﻿  boj13305_주유소.cpp
+C:\Users\ohyon\Desktop\Algorithm_Study\C++ 알고리즘\EPPER\boj13305_주유소\boj13305_주유소\boj13305_주유소.cpp(13,23): warning C4244: '+=': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\ohyon\Desktop\Algorithm_Study\C++ 알고리즘\EPPER\boj13305_주유소\boj13305_주유소\boj13305_주유소.cpp(16,23): warning C4244: '+=': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  boj13305_주유소.vcxproj -> C:\Users\ohyon\Desktop\Algorithm_Study\C++ 알고리즘\EPPER\boj13305_주유소\Debug\boj13305_주유소.exe

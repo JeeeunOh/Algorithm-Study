@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stack": "cpp",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "queue": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }

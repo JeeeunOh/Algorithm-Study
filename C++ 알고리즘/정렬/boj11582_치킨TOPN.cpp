@@ -1,12 +1,12 @@
 #include <iostream>
 #include <vector>
+//sort()
 #include <algorithm>
 using namespace std;
 
 int v[1<<20];
 int N, k;
-
-//ex.N=8, k=2
+ //ex.N=8, k=2
 
 int main(){
     cin >> N ;
@@ -20,6 +20,7 @@ int main(){
     while(person>=k){
         int d = N/person; // 정렬하는 거리는 ' 전체 치킨집 수 / 사람수 ' 로 할당 -> 8/4=2
         // i=0,2,4,6
+        //v[i] ~ v[i+d-1]
         for(int i=0; i<N ; i+=d) sort(v+i,v+i+d);
         person/=2;
     }

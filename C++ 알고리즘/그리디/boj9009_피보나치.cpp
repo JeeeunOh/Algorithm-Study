@@ -2,12 +2,15 @@
 #include <vector>
 using namespace std;
 
-
+//0,1,1,2,,,,
+//0,1,2,,,,
+// ㅋㅓ밋확인
 int main(){
     int pibo[43] = {1, 2};
 	for (int i = 2; i < 43; ++i) pibo[i] = pibo[i - 1] + pibo[i - 2];
 
     int T, num;
+
 	cin >> T ;
 
     for(int i=0 ; i<T ; i++){

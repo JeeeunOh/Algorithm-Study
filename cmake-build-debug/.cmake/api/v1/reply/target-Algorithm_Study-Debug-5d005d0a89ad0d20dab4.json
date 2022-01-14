@@ -1,0 +1,6704 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Algorithm_Study"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				50,
+				70,
+				90,
+				97,
+				98,
+				99,
+				100,
+				114,
+				134,
+				154,
+				174,
+				194,
+				201,
+				206,
+				226,
+				231,
+				236,
+				241,
+				246,
+				251,
+				256,
+				261,
+				266,
+				271,
+				276,
+				281,
+				286,
+				291,
+				296,
+				301,
+				322,
+				343,
+				364,
+				369,
+				390,
+				411,
+				432,
+				437,
+				443,
+				457,
+				464,
+				482,
+				502,
+				522,
+				529,
+				547,
+				567,
+				587,
+				607,
+				614,
+				619,
+				624,
+				629,
+				634,
+				652,
+				672,
+				692,
+				712,
+				732,
+				755,
+				776,
+				797,
+				802,
+				803,
+				804,
+				818,
+				825,
+				843,
+				863,
+				870,
+				876,
+				877,
+				878,
+				902,
+				1030,
+				1032,
+				1033,
+				1035,
+				1036,
+				1037
+			]
+		}
+	],
+	"id" : "Algorithm_Study::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Algorithm_Study",
+	"nameOnDisk" : "Algorithm_Study",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				48,
+				49,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				68,
+				69,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				88,
+				89,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				112,
+				113,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				132,
+				133,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				152,
+				153,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				172,
+				173,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				192,
+				193,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				202,
+				203,
+				204,
+				205,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				224,
+				225,
+				227,
+				228,
+				229,
+				230,
+				232,
+				233,
+				234,
+				235,
+				237,
+				238,
+				239,
+				240,
+				242,
+				243,
+				244,
+				245,
+				247,
+				248,
+				249,
+				250,
+				252,
+				253,
+				254,
+				255,
+				257,
+				258,
+				259,
+				260,
+				262,
+				263,
+				264,
+				265,
+				267,
+				268,
+				269,
+				270,
+				272,
+				273,
+				274,
+				275,
+				277,
+				278,
+				279,
+				280,
+				282,
+				283,
+				284,
+				285,
+				287,
+				288,
+				289,
+				290,
+				292,
+				293,
+				294,
+				295,
+				297,
+				298,
+				299,
+				300,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				318,
+				319,
+				320,
+				321,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				339,
+				340,
+				341,
+				342,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				360,
+				361,
+				362,
+				363,
+				365,
+				366,
+				367,
+				368,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				386,
+				387,
+				388,
+				389,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				407,
+				408,
+				409,
+				410,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				428,
+				429,
+				430,
+				431,
+				433,
+				434,
+				435,
+				436,
+				438,
+				439,
+				440,
+				441,
+				442,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				455,
+				456,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				480,
+				481,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				500,
+				501,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				520,
+				521,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				545,
+				546,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				565,
+				566,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				585,
+				586,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				605,
+				606,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				615,
+				616,
+				617,
+				618,
+				620,
+				621,
+				622,
+				623,
+				625,
+				626,
+				627,
+				628,
+				630,
+				631,
+				632,
+				633,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				650,
+				651,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				670,
+				671,
+				673,
+				674,
+				675,
+				676,
+				677,
+				678,
+				679,
+				680,
+				681,
+				682,
+				683,
+				684,
+				685,
+				686,
+				687,
+				688,
+				690,
+				691,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702,
+				703,
+				704,
+				705,
+				706,
+				707,
+				708,
+				710,
+				711,
+				713,
+				714,
+				715,
+				716,
+				717,
+				718,
+				719,
+				720,
+				721,
+				722,
+				723,
+				724,
+				725,
+				726,
+				727,
+				728,
+				730,
+				731,
+				733,
+				734,
+				735,
+				736,
+				737,
+				738,
+				739,
+				740,
+				741,
+				742,
+				743,
+				744,
+				745,
+				746,
+				747,
+				748,
+				749,
+				751,
+				752,
+				753,
+				754,
+				756,
+				757,
+				758,
+				759,
+				760,
+				761,
+				762,
+				763,
+				764,
+				765,
+				766,
+				767,
+				768,
+				769,
+				770,
+				772,
+				773,
+				774,
+				775,
+				777,
+				778,
+				779,
+				780,
+				781,
+				782,
+				783,
+				784,
+				785,
+				786,
+				787,
+				788,
+				789,
+				790,
+				791,
+				793,
+				794,
+				795,
+				796,
+				798,
+				799,
+				800,
+				801,
+				805,
+				806,
+				807,
+				808,
+				809,
+				810,
+				811,
+				812,
+				813,
+				814,
+				816,
+				817,
+				819,
+				820,
+				821,
+				822,
+				823,
+				824,
+				826,
+				827,
+				828,
+				829,
+				830,
+				831,
+				832,
+				833,
+				834,
+				835,
+				836,
+				837,
+				838,
+				839,
+				841,
+				842,
+				844,
+				845,
+				846,
+				847,
+				848,
+				849,
+				850,
+				851,
+				852,
+				853,
+				854,
+				855,
+				856,
+				857,
+				858,
+				859,
+				861,
+				862,
+				864,
+				865,
+				866,
+				867,
+				868,
+				869,
+				871,
+				872,
+				873,
+				874,
+				875,
+				879,
+				880,
+				881,
+				882,
+				883,
+				884,
+				885,
+				886,
+				887,
+				888,
+				889,
+				890,
+				891,
+				892,
+				893,
+				894,
+				895,
+				896,
+				897,
+				898,
+				899,
+				900,
+				901,
+				903,
+				904,
+				905,
+				906,
+				907,
+				908,
+				909,
+				910,
+				911,
+				912,
+				913,
+				914,
+				915,
+				916,
+				917,
+				918,
+				919,
+				920,
+				921,
+				922,
+				923,
+				924,
+				925,
+				926,
+				927,
+				928,
+				929,
+				930,
+				931,
+				932,
+				933,
+				934,
+				935,
+				936,
+				937,
+				938,
+				939,
+				940,
+				941,
+				942,
+				943,
+				944,
+				945,
+				946,
+				947,
+				948,
+				949,
+				950,
+				951,
+				952,
+				953,
+				954,
+				955,
+				956,
+				957,
+				958,
+				959,
+				960,
+				961,
+				962,
+				963,
+				964,
+				965,
+				966,
+				967,
+				968,
+				969,
+				970,
+				971,
+				972,
+				973,
+				974,
+				975,
+				976,
+				977,
+				978,
+				979,
+				980,
+				981,
+				982,
+				983,
+				984,
+				985,
+				986,
+				987,
+				988,
+				989,
+				990,
+				991,
+				992,
+				993,
+				994,
+				995,
+				996,
+				997,
+				998,
+				999,
+				1000,
+				1001,
+				1002,
+				1003,
+				1004,
+				1005,
+				1006,
+				1007,
+				1008,
+				1009,
+				1010,
+				1011,
+				1012,
+				1013,
+				1014,
+				1015,
+				1016,
+				1017,
+				1018,
+				1019,
+				1020,
+				1021,
+				1022,
+				1023,
+				1024,
+				1025,
+				1026,
+				1027,
+				1028,
+				1029,
+				1031,
+				1034,
+				1038,
+				1039,
+				1040,
+				1041,
+				1042,
+				1043,
+				1044,
+				1045,
+				1046,
+				1047,
+				1048,
+				1049,
+				1050,
+				1051,
+				1052,
+				1053,
+				1054,
+				1055,
+				1056,
+				1057,
+				1058,
+				1059,
+				1060,
+				1061,
+				1062,
+				1063,
+				1064,
+				1065,
+				1066,
+				1067,
+				1068,
+				1069,
+				1070,
+				1071,
+				1072
+			]
+		},
+		{
+			"name" : "Object Files",
+			"sourceIndexes" : 
+			[
+				47,
+				67,
+				87,
+				111,
+				131,
+				151,
+				171,
+				191,
+				223,
+				317,
+				338,
+				359,
+				385,
+				406,
+				427,
+				454,
+				479,
+				499,
+				519,
+				544,
+				564,
+				584,
+				604,
+				649,
+				669,
+				689,
+				709,
+				729,
+				750,
+				771,
+				792,
+				815,
+				840,
+				860
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				50,
+				70,
+				90,
+				97,
+				98,
+				99,
+				100,
+				114,
+				134,
+				154,
+				174,
+				194,
+				201,
+				206,
+				226,
+				231,
+				236,
+				241,
+				246,
+				251,
+				256,
+				261,
+				266,
+				271,
+				276,
+				281,
+				286,
+				291,
+				296,
+				301,
+				322,
+				343,
+				364,
+				369,
+				390,
+				411,
+				432,
+				437,
+				443,
+				457,
+				464,
+				482,
+				502,
+				522,
+				529,
+				547,
+				567,
+				587,
+				607,
+				614,
+				619,
+				624,
+				629,
+				634,
+				652,
+				672,
+				692,
+				712,
+				732,
+				755,
+				776,
+				797,
+				802,
+				803,
+				804,
+				818,
+				825,
+				843,
+				863,
+				870,
+				876,
+				877,
+				878,
+				902,
+				1030,
+				1032,
+				1033,
+				1035,
+				1036,
+				1037
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/DFS_BFS/boj1012.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/DFS_BFS/boj1260.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적게획법_11057.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_10844.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_11052.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_11053.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_11054.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_11055.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_11722.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_11726.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_11727.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_1699.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_1912.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_2011.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_2133.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_2156.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_2193.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_2225.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_2579.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_9095.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_9461.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/동적계획법/동적계획법_9465.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/스택_큐_덱/ex10799.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/스택_큐_덱/ex10828.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/스택_큐_덱/ex10845.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/스택_큐_덱/ex10866.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/스택_큐_덱/ex9012.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/스택_큐_덱/ex9012_해설.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/정렬/ex10814.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/정렬/ex10825.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/정렬/ex10989_sb.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/정렬/ex10989_카운팅정렬.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/정렬/ex11004.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/정렬/ex11651.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/정렬/ex11652.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/정렬/정렬_11650.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Algorithm_Study/src/정렬/정렬_2751.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.tlog/boj1546_평균.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/boj1546_평균.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/boj1546_평균.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/boj1546_평균.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/boj1546_평균.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균/boj1546_평균.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/Debug/boj1546_평균.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/Debug/boj1546_평균.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj1546_평균/boj1546_평균.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.tlog/boj2577_숫자의개수.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/boj2577_숫자의개수.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/boj2577_숫자의개수.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/boj2577_숫자의개수.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/boj2577_숫자의개수.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수/boj2577_숫자의개수.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/Debug/boj2577_숫자의개수.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/Debug/boj2577_숫자의개수.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj2577_숫자의개수/boj2577_숫자의개수.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.tlog/boj8958_OX문제.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/boj8958_OX문제.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/boj8958_OX문제.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/boj8958_OX문제.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/boj8958_OX문제.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/boj8958_OX문제.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/Debug/boj8958_OX문제.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/Debug/boj8958_OX문제.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/DFS_BFS/ dfs구현_스택.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/DFS_BFS/bfs구현.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/DFS_BFS/boj16234.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/DFS_BFS/dfs구현_재귀.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.tlog/boj1074_실버1.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/boj1074_실버1.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/boj1074_실버1.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/boj1074_실버1.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/boj1074_실버1.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1/boj1074_실버1.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/Debug/boj1074_실버1.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/Debug/boj1074_실버1.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1074_실버1/boj1074_실버1.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.tlog/boj1259_팰린드롬수.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/boj1259_팰린드롬수.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/boj1259_팰린드롬수.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/boj1259_팰린드롬수.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수/boj1259_팰린드롬수.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/Debug/boj1259_팰린드롬수.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj1259_팰린드롬수/boj1259_팰린드롬수.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.tlog/boj13305_주유소.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/boj13305_주유소.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/boj13305_주유소.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/boj13305_주유소.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/boj13305_주유소.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소/boj13305_주유소.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/Debug/boj13305_주유소.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/Debug/boj13305_주유소.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13305_주유소/boj13305_주유소.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.tlog/boj13458_시험감독.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/boj13458_시험감독.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/boj13458_시험감독.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/boj13458_시험감독.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/boj13458_시험감독.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/boj13458_시험감독.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/Debug/boj13458_시험감독.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/Debug/boj13458_시험감독.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.tlog/boj14891_톱니바퀴.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/boj14891_톱니바퀴.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/boj14891_톱니바퀴.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/boj14891_톱니바퀴.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴/boj14891_톱니바퀴.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/Debug/boj14891_톱니바퀴.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj14891_톱니바퀴/boj14891_톱니바퀴.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/boj19538_루머/boj19538_루머/boj19538_루머.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj19538_루머/boj19538_루머/boj19538_루머.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj19538_루머/boj19538_루머/boj19538_루머.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj19538_루머/boj19538_루머/boj19538_루머.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/boj19538_루머/boj19538_루머.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/E-Queen/E-Queen/E-Queen.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/E-Queen/E-Queen/E-Queen.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/E-Queen/E-Queen/E-Queen.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/E-Queen/E-Queen/E-Queen.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/E-Queen/E-Queen.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/Debug/EPPER15_5.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/Debug/EPPER15_5.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.tlog/EPPER15_5.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/EPPER15_5.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/EPPER15_5.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/EPPER15_5.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/EPPER15_5.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5/EPPER15_5.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/EPPER15_5/EPPER15_5.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/fnaj/fnaj/fnaj.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/fnaj/fnaj/fnaj.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/fnaj/fnaj/fnaj.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/fnaj/fnaj/fnaj.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/fnaj/fnaj.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/OX/OX/OX.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/OX/OX/OX.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/OX/OX/OX.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/OX/OX/OX.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/OX/OX.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/Z/Z/Z.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/Z/Z/Z.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/Z/Z/Z.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/Z/Z/Z.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/Z/Z.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/루머/루머/루머.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/루머/루머/루머.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/루머/루머/루머.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/루머/루머/루머.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/루머/루머.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/문자열압축/문자열압축/문자열압축.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/문자열압축/문자열압축/문자열압축.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/문자열압축/문자열압축/문자열압축.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/문자열압축/문자열압축/문자열압축.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/문자열압축/문자열압축.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/불량사용자/불량사용자/불량사용자.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/불량사용자/불량사용자/불량사용자.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/불량사용자/불량사용자/불량사용자.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/불량사용자/불량사용자/불량사용자.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/불량사용자/불량사용자.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/사다리/사다리/사다리.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/사다리/사다리/사다리.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/사다리/사다리/사다리.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/사다리/사다리/사다리.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/사다리/사다리.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/산신령/산신령/산신령.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/산신령/산신령/산신령.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/산신령/산신령/산신령.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/산신령/산신령/산신령.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/산신령/산신령.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/산신령2/산신령2/산신령2.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/산신령2/산신령2/산신령2.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/산신령2/산신령2/산신령2.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/산신령2/산신령2/산신령2.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/산신령2/산신령2.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/시험감독/시험감독/시험감독.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/시험감독/시험감독/시험감독.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/시험감독/시험감독/시험감독.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/시험감독/시험감독/시험감독.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/시험감독/시험감독.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/신문기사/신문기사/신문기사.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/신문기사/신문기사/신문기사.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/신문기사/신문기사/신문기사.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/신문기사/신문기사/신문기사.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/신문기사/신문기사.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/신문기사2/신문기사2/신문기사2.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/신문기사2/신문기사2/신문기사2.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/신문기사2/신문기사2/신문기사2.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/신문기사2/신문기사2/신문기사2.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/신문기사2/신문기사2.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/입국심사/입국심사/입국심사.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/입국심사/입국심사/입국심사.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/입국심사/입국심사/입국심사.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/입국심사/입국심사/입국심사.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/입국심사/입국심사.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/주유소/주유소/주유소.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/주유소/주유소/주유소.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/주유소/주유소/주유소.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/주유소/주유소/주유소.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/주유소/주유소.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/EPPER/펠린드롬수/펠린드롬수/펠린드롬수.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/펠린드롬수/펠린드롬수/펠린드롬수.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/펠린드롬수/펠린드롬수/펠린드롬수.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/펠린드롬수/펠린드롬수/펠린드롬수.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/EPPER/펠린드롬수/펠린드롬수.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.tlog/boj10871_X보다작은수.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/boj10871_X보다작은수.vcxproj.FileListAbsolute.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/boj10871_X보다작은수.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/boj10871_X보다작은수.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/boj10871_X보다작은수.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/boj10871_X보다작은수.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj10871_X보다작은수/boj10871_X보다작은수.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.tlog/boj15552.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/boj15552.vcxproj.FileListAbsolute.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/for문/boj15552/boj15552.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/boj15552.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/boj15552.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/boj15552.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/for문/boj15552/boj15552.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.tlog/boj1330_두수비교하기.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/boj1330_두수비교하기.vcxproj.FileListAbsolute.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/boj1330_두수비교하기.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/boj1330_두수비교하기.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/boj1330_두수비교하기.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/boj1330_두수비교하기.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj1330_두수비교하기/boj1330_두수비교하기.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/if문/boj14681_사분면고르기/boj14681_사분면고르기.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj14681_사분면고르기/boj14681_사분면고르기.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj14681_사분면고르기/boj14681_사분면고르기.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj14681_사분면고르기/boj14681_사분면고르기.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj14681_사분면고르기/boj14681_사분면고르기.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.tlog/boj2884_알람시계.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/boj2884_알람시계.vcxproj.FileListAbsolute.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/boj2884_알람시계.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/boj2884_알람시계.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/boj2884_알람시계.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/boj2884_알람시계.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj2884_알람시계/boj2884_알람시계.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.tlog/boj9498_시험성적.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/boj9498_시험성적.vcxproj.FileListAbsolute.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/boj9498_시험성적.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/boj9498_시험성적.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/boj9498_시험성적.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/boj9498_시험성적.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/if문/boj9498_시험성적/boj9498_시험성적.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.tlog/boj10952.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/boj10952.vcxproj.FileListAbsolute.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/while문/boj10952/boj10952.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/boj10952.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/boj10952.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/boj10952.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/while문/boj10952/boj10952.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/그리디/boj1541_잃어버린괄호/boj1541_잃어버린괄호/boj1541_잃어버린괄호.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/그리디/boj1541_잃어버린괄호/boj1541_잃어버린괄호/boj1541_잃어버린괄호.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/그리디/boj1541_잃어버린괄호/boj1541_잃어버린괄호/boj1541_잃어버린괄호.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/그리디/boj1541_잃어버린괄호/boj1541_잃어버린괄호/boj1541_잃어버린괄호.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/그리디/boj1541_잃어버린괄호/boj1541_잃어버린괄호.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/그리디/boj9009_피보나치",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/그리디/boj9009_피보나치.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.tlog/boj1712_손익분기점.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/boj1712_손익분기점.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/boj1712_손익분기점.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/boj1712_손익분기점.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/boj1712_손익분기점.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점/boj1712_손익분기점.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/Debug/boj1712_손익분기점.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/Debug/boj1712_손익분기점.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1712_손익분기점/boj1712_손익분기점.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/기본수학1/boj1978_소수찾기/boj1978_소수찾기/boj1978_소수찾기.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1978_소수찾기/boj1978_소수찾기/boj1978_소수찾기.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1978_소수찾기/boj1978_소수찾기/boj1978_소수찾기.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1978_소수찾기/boj1978_소수찾기/boj1978_소수찾기.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj1978_소수찾기/boj1978_소수찾기.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_.9fb96e7c.tlog/boj2869_달팽이는올라가고싶다.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_.9fb96e7c.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_.9fb96e7c.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_.9fb96e7c.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_.9fb96e7c.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_.9fb96e7c.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_.9fb96e7c.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_달팽이는올라가고싶다.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_달팽이는올라가고싶다.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_달팽이는올라가고싶다.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/boj2869_달팽이는올라가고싶다.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/Debug/boj2869_달팽이는올라가고싶다.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/Debug/boj2869_달팽이는올라가고싶다.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.tlog/boj11047_동전0.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/boj11047_동전0.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/boj11047_동전0.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/boj11047_동전0.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/boj11047_동전0.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/boj11047_동전0.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/Debug/boj11047_동전0.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/Debug/boj11047_동전0.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj11047_동전0/boj11047_동전0.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.tlog/boj1904_01타일.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/boj1904_01타일.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/boj1904_01타일.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/boj1904_01타일.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/boj1904_01타일.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일/boj1904_01타일.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/Debug/boj1904_01타일.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/Debug/boj1904_01타일.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj1904_01타일/boj1904_01타일.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/동적계획법/boj2565_전깃줄/boj2565_전깃줄/boj2565_전깃줄.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj2565_전깃줄/boj2565_전깃줄/boj2565_전깃줄.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj2565_전깃줄/boj2565_전깃줄/boj2565_전깃줄.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj2565_전깃줄/boj2565_전깃줄/boj2565_전깃줄.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj2565_전깃줄/boj2565_전깃줄.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.tlog/boj9184_신나는함수실행.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/boj9184_신나는함수실행.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/boj9184_신나는함수실행.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/boj9184_신나는함수실행.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행/boj9184_신나는함수실행.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/Debug/boj9184_신나는함수실행.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9184_신나는함수실행/boj9184_신나는함수실행.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.tlog/boj9251_LCS.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/boj9251_LCS.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/boj9251_LCS.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/boj9251_LCS.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/boj9251_LCS.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS/boj9251_LCS.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/Debug/boj9251_LCS.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/Debug/boj9251_LCS.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/동적계획법/boj9251_LCS/boj9251_LCS.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.tlog/boj1152_단어의개수.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/boj1152_단어의개수.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/boj1152_단어의개수.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/boj1152_단어의개수.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/boj1152_단어의개수.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/boj1152_단어의개수.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/Debug/boj1152_단어의개수.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/Debug/boj1152_단어의개수.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.tlog/boj1157_단어공부.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/boj1157_단어공부.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/boj1157_단어공부.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/boj1157_단어공부.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/boj1157_단어공부.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부/boj1157_단어공부.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/Debug/boj1157_단어공부.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/Debug/boj1157_단어공부.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1157_단어공부/boj1157_단어공부.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/문자열/boj1316_그룹단어체커/boj1316_그룹단어체커/boj1316_그룹단어체커.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1316_그룹단어체커/boj1316_그룹단어체커/boj1316_그룹단어체커.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1316_그룹단어체커/boj1316_그룹단어체커/boj1316_그룹단어체커.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1316_그룹단어체커/boj1316_그룹단어체커/boj1316_그룹단어체커.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/문자열/boj1316_그룹단어체커/boj1316_그룹단어체커.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/백트래킹/boj14888_연산자끼워넣기/boj14888_연산자끼워넣기/boj14888_연산자끼워넣기.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/백트래킹/boj14888_연산자끼워넣기/boj14888_연산자끼워넣기/boj14888_연산자끼워넣기.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/백트래킹/boj14888_연산자끼워넣기/boj14888_연산자끼워넣기/boj14888_연산자끼워넣기.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/백트래킹/boj14888_연산자끼워넣기/boj14888_연산자끼워넣기/boj14888_연산자끼워넣기.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/백트래킹/boj14888_연산자끼워넣기/boj14888_연산자끼워넣기.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/백트래킹/boj15651_N과M(3)/boj15651_N과M(3)/boj15651_N과M(3).cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/백트래킹/boj15651_N과M(3)/boj15651_N과M(3)/boj15651_N과M(3).vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/백트래킹/boj15651_N과M(3)/boj15651_N과M(3)/boj15651_N과M(3).vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/백트래킹/boj15651_N과M(3)/boj15651_N과M(3)/boj15651_N과M(3).vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/백트래킹/boj15651_N과M(3)/boj15651_N과M(3).sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/브루트포스/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/브루트포스/boj1436_영화감독숌/boj1436_영화감독숌/boj1436_영화감독숌.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj1436_영화감독숌/boj1436_영화감독숌/boj1436_영화감독숌.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj1436_영화감독숌/boj1436_영화감독숌/boj1436_영화감독숌.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj1436_영화감독숌/boj1436_영화감독숌/boj1436_영화감독숌.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj1436_영화감독숌/boj1436_영화감독숌.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.tlog/boj2798_블랙잭.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/boj2798_블랙잭.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/boj2798_블랙잭.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/boj2798_블랙잭.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/boj2798_블랙잭.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭/boj2798_블랙잭.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/Debug/boj2798_블랙잭.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/Debug/boj2798_블랙잭.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/브루트포스/boj2798_블랙잭/boj2798_블랙잭.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.tlog/boj10773_제로.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/boj10773_제로.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/boj10773_제로.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/boj10773_제로.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/boj10773_제로.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로/boj10773_제로.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/Debug/boj10773_제로.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/Debug/boj10773_제로.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj10773_제로/boj10773_제로.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.tlog/boj18258_큐2.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/boj18258_큐2.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/boj18258_큐2.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/boj18258_큐2.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/boj18258_큐2.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2/boj18258_큐2.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/Debug/boj18258_큐2.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/Debug/boj18258_큐2.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj18258_큐2/boj18258_큐2.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.tlog/boj1874_스택수열.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/boj1874_스택수열.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/boj1874_스택수열.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/boj1874_스택수열.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/boj1874_스택수열.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열/boj1874_스택수열.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/Debug/boj1874_스택수열.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/Debug/boj1874_스택수열.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj1874_스택수열/boj1874_스택수열.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.tlog/boj2164_카드2.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/boj2164_카드2.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/boj2164_카드2.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/boj2164_카드2.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/boj2164_카드2.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2/boj2164_카드2.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/Debug/boj2164_카드2.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/Debug/boj2164_카드2.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/스택, 큐, 덱/boj2164_카드2/boj2164_카드2.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.tlog/boj10171.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/boj10171.vcxproj.FileListAbsolute.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/입출력/boj10171/boj10171.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/boj10171.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/boj10171.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/boj10171.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10171/boj10171.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.tlog/boj10172.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/boj10172.vcxproj.FileListAbsolute.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/입출력/boj10172/boj10172.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/boj10172.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/boj10172.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/boj10172.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj10172/boj10172.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.tlog/boj2588.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/boj2588.vcxproj.FileListAbsolute.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/입출력/boj2588/boj2588.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/boj2588.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/boj2588.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/boj2588.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/입출력/boj2588/boj2588.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/입출력/2588.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/입출력/boj1001.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/입출력/boj10171_고양이.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.tlog/boj10872_ 팩토리얼.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/boj10872_ 팩토리얼.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/boj10872_ 팩토리얼.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/boj10872_ 팩토리얼.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼/boj10872_ 팩토리얼.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/Debug/boj10872_ 팩토리얼.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj10872_ 팩토리얼/boj10872_ 팩토리얼.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/재귀/boj11729_하노이탑이동순서/boj11729_하노이탑이동순서/boj11729_하노이탑이동순서.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj11729_하노이탑이동순서/boj11729_하노이탑이동순서/boj11729_하노이탑이동순서.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj11729_하노이탑이동순서/boj11729_하노이탑이동순서/boj11729_하노이탑이동순서.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj11729_하노이탑이동순서/boj11729_하노이탑이동순서/boj11729_하노이탑이동순서.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj11729_하노이탑이동순서/boj11729_하노이탑이동순서.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.tlog/boj2447_별찍기.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/boj2447_별찍기.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/boj2447_별찍기.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/boj2447_별찍기.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/boj2447_별찍기.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/boj2447_별찍기.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/Debug/boj2447_별찍기.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/Debug/boj2447_별찍기.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/재귀/boj2447_별찍기/boj2447_별찍기.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.tlog/boj1427_소트인사이드.lastbuildstate",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.tlog/CL.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.tlog/CL.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.tlog/CL.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.tlog/link.command.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.tlog/link.read.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.tlog/link.write.1.tlog",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.exe.recipe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.ilk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.log",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/boj1427_소트인사이드.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/vc142.idb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/Debug/vc142.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/boj1427_소트인사이드.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/boj1427_소트인사이드.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/boj1427_소트인사이드.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드/boj1427_소트인사이드.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/Debug/boj1427_소트인사이드.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/Debug/boj1427_소트인사이드.pdb",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj1427_소트인사이드/boj1427_소트인사이드.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/정렬/boj2108_통계학/boj2108_통계학/boj2108_통계학.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj2108_통계학/boj2108_통계학/boj2108_통계학.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj2108_통계학/boj2108_통계학/boj2108_통계학.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj2108_통계학/boj2108_통계학/boj2108_통계학.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj2108_통계학/boj2108_통계학.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정렬/boj11582_치킨TOPN",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/정렬/boj11582_치킨TOPN.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/정렬/tempCodeRunnerFile.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C++ 알고리즘/정수론 및 조합론/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정수론 및 조합론/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정수론 및 조합론/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj.filters",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정수론 및 조합론/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C++ 알고리즘/정수론 및 조합론/ConsoleApplication1/ConsoleApplication1.sln",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/dfs_bfs/ex16234.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex11_7.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex11_9.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex12_2.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex13_10.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex13_7.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex14_5.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex15_3.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex15_7.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex15_7_comparable.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex15_9.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex16_1.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/EPPER/ex16_2.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/그래프/ex10451.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/그래프/ex9205.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/그래프/ex9205_DFS.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/그래프트리/ex2263.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/그래프트리/ex2606.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/그리디/boj1071.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "EDOC/src/그리디/boj4889.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/그리디/boj4889.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/다익스트라플와/ex11780.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/다익스트라플와/ex14496.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/다익스트라플와/ex1753.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/다익스트라플와/ex18352.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/다익스트라플와/ex2155.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/다익스트라플와/ex다익스트라.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/동적계획법/ex1003.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/동적계획법/ex1149.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/동적계획법/ex12865.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/동적계획법/ex1949.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/동적계획법/ex2248.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/백트래킹/ex14888.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/백트래킹/ex15649_N과M_1.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/백트래킹/ex15663.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/백트래킹/ex17136.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/백트래킹/ex2580_스도쿠.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/스택_큐_덱/ex10025.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/스택_큐_덱/ex17299.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/우선순위큐/ex1927.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/우선순위큐/ex2075.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/정렬_이분탐색/ex16401.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/정렬_이분탐색/ex18870.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/정렬_이분탐색/ex2343.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/트리/ex14425_HashMap.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/트리/ex5639_이진검색트리.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/트리/ex9934_완전이진트리.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/팀대항전_21Winter/ex1487.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/팀대항전_21Winter/ex15500.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/팀대항전_21Winter/ex16237.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/팀대항전_21Winter/ex17092.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/팀대항전_21Winter/ex18766.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/팀대항전_21Winter/ex19605.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/팀대항전_21Winter/ex19605_함수.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/해시/ex2628.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EDOC/src/해시/ex2776_암기왕.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/camp_contest_초급/A.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/camp_contest_초급/B.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/camp_contest_초급/C.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/map_set_정수론/ex14490.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/map_set_정수론/ex16563.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/map_set_정수론/ex16563_sol.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/map_set_정수론/ex2002.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/map_set_정수론/ex20302.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/map_set_정수론/ex20302_솔루션.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/map_set_정수론/ex4358.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/map_set_정수론/ex4358_간략.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/SUAPC/I.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/SUAPC/K.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/SUAPC/L.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/SUAPC/L_simple.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/SUAPC/new_L.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/그래프/ex1260.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/그래프/ex16953.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/그래프/ex1697.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/그래프/ex19538_루머.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/그래프/ex1967.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/그래프/ex5829.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/그래프/그래프 개념 정리",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/누적합_이중포인터/ex11650.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/누적합_이중포인터/ex11659.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/누적합_이중포인터/ex1253.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/누적합_이중포인터/ex1484.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/누적합_이중포인터/ex2003.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/다익스트라/ex11000.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/다익스트라/ex11286.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/다익스트라/ex1753.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/다익스트라/ex1916.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/다익스트라/ex20046.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/다익스트라/다익스트라_구글링_기본구현.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex11053.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex12865.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex12995_트리나라.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex1949.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex1949_연습.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex2248.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex7579.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex7579_gragon_h.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex7579_제출ver.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법/ex9252.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법_초급/ex1463.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법_초급/ex15988.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법_초급/ex1757.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법_초급/ex20500.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법_초급/ex20500_15배수.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/동적계획법_초급/ex2748_피보나치.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/벨만포드_플로이드와샬/ex11403.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/벨만포드_플로이드와샬/ex11404.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/벨만포드_플로이드와샬/ex11657.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/벨만포드_플로이드와샬/ex11657_solution.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/벨만포드_플로이드와샬/ex11657_출력초과해결.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/벨만포드_플로이드와샬/ex1389.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/벨만포드_플로이드와샬/ex1865.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/벨만포드_플로이드와샬/ex1865_버퍼버전.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/벨만포드_플로이드와샬/플로이드와샬_개념정리.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/브루트포스_백트래킹/ex1182.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/브루트포스_백트래킹/ex1182_백트래킹.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/브루트포스_백트래킹/ex15649.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/브루트포스_백트래킹/ex15650.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/브루트포스_백트래킹/ex15652.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/브루트포스_백트래킹/ex2231_분해합.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/브루트포스_백트래킹/ex9663.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex1021.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex10799.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex10828.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex1158.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex1918_후위표기식.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex1935.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex1966.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex4949.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex4949_index버전.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/스택_큐_덱/ex9012_괄호.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex1026.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex1181.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex11931.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex12738.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex16401_이분탐색.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex1920.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex2470.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex2473.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex2750.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex2805.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/정렬_이분탐색/ex3079.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/트리/ex1068.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/트리/ex11725.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/트리/ex1991.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2021/src/트리/ex5639.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ICPC_winter_2022/시간복잡도_정렬/boj1026_보물.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2022/시간복잡도_정렬/boj11656_접미사배열",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ICPC_winter_2022/시간복잡도_정렬/boj11656_접미사배열.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ICPC_winter_2022/시간복잡도_정렬/boj1448_삼각형만들기.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ICPC_winter_2022/시간복잡도_정렬/boj15889_호안수류탄",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ICPC_winter_2022/시간복잡도_정렬/boj15889_호안수류탄.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ICPC_winter_2022/시간복잡도_정렬/boj18870_좌표압축.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "알튜비튜/정렬/boj2750_수정렬하기.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/midterm/ex01.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/midterm/ex예시.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit01/ex누적평균.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit01/ex비트행렬최대1행찾기.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit01/ex비트행렬최대1행찾기_2.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit01/ex행렬특정원소찾기.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit02_재귀/ex재귀적곱하기와나누기.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit02_재귀/ex하노이탑.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit03_기초데이터구조/ex나선형채우기.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit03_기초데이터구조/ex지그재그채우기.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit03_기초데이터구조/LinkedList.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit03_기초데이터구조/단일연결리스트.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit03_기초데이터구조/이중연결리스트.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit04_기본추상자료형/ex기간.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit04_기본추상자료형/ex두개의스택으로큐만들기.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit04_기본추상자료형/ex양자택일식문답시스템.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit04_기본추상자료형/ex집합_배열.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit04_기본추상자료형/스택ADT.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit04_기본추상자료형/큐ADT.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit04_기본추상자료형/트리ADT.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit05_우선순위큐/ex역치와삽입정렬.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit05_우선순위큐/선택_삽입정렬.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit05_우선순위큐/우선순위큐ADT_강의.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit06_힙과힙정렬/제자리힙정렬_강의.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit06_힙과힙정렬/최대힙ADT.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit06_힙과힙정렬/최소힙ADT.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit07_합병정렬/boj2751_합병정렬.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit07_합병정렬/합병정렬ADT.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit08_퀵정렬/ex색분리.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit08_퀵정렬/퀵정렬_구글링.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit08_퀵정렬/퀵정렬ADT.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit09_정렬일반/ex투표.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/unit10_사전/이진탐색ADT.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "컴퓨터알고리즘/src/컴알과제1/ex2_3.java",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "README.md",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

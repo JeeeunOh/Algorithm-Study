@@ -5,6 +5,7 @@ using namespace std;
 int main(){
     char input[1000];
     scanf("%[^\n]s", input);
+    //cin : 띄어쓰기는 포함되지 않음
 
     char ans[] = {"UCPC"};
     int j=0; // UCPC 의 0 index부터 탐색해보자
@@ -14,6 +15,7 @@ int main(){
         if(input[i]==ans[j]){
             j++; cnt++;
         }
+        if(cnt==4) break;
     }
     if(cnt==4) cout << "I love UCPC" << endl;
     else cout << "I hate UCPC" << endl;

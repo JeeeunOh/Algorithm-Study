@@ -1,9 +1,9 @@
 # ninja log v5
 6	1247	1642087004384691978	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/EPPER/boj13305_주유소/boj13305_주유소/boj13305_주유소.cpp.o	9d1464e70da05628
 2	1319	1642087004453127192	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/1차원배열/boj8958_OX문제/boj8958_OX문제/boj8958_OX문제.cpp.o	fccf53e119bb5ed1
+4	1317	1642087004451503815	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/EPPER/boj1074_실버1/boj1074_실버1/boj1074_실버1.cpp.o	fa09874cab0d6a8f
 29	988	1642087182550878283	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/정수론_및_조합론/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.cpp.o	62eac54391c6c146
 3	112	1642087003254627919	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/DFS_BFS/boj16234.cpp.o	6d9b169cfa9e2f1b
-4	1317	1642087004451503815	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/EPPER/boj1074_실버1/boj1074_실버1/boj1074_실버1.cpp.o	fa09874cab0d6a8f
 3	1725	1642087004859377488	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/DFS_BFS/_dfs구현_스택.cpp.o	55f0df091437f83
 112	1389	1642087004524138575	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/EPPER/boj13458_시험감독/boj13458_시험감독/boj13458_시험감독.cpp.o	1786794a71f836b0
 1390	2246	1642087005382680171	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/EPPER/Z/Z/Z.cpp.o	e488580a4d1efcbd
@@ -50,13 +50,13 @@
 4	1406	1642087004542315012	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/DFS_BFS/dfs구현_재귀.cpp.o	58745470e08f8117
 3647	4516	1642087007653509290	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/기본수학1/boj1978_소수찾기/boj1978_소수찾기/boj1978_소수찾기.cpp.o	2c2e5c64052743fb
 3656	4540	1642087007677857943	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/기본수학1/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다/boj2869_달팽이는올라가고싶다.cpp.o	225b91393832927e
-5	1370	1642087045787885206	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/스택,_큐,_덱/boj18258_큐2/boj18258_큐2/boj18258_큐2.cpp.o	cedec33e20308a8a
-1287	2769	1642087005900835146	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/EPPER/boj19538_루머/boj19538_루머/boj19538_루머.cpp.o	fc5522f277f38053
-4056	5019	1642087008156054720	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/boj1152_단어의개수.cpp.o	3c7658ab7da9552
-988	1025	1642087182594634462	CMakeFiles/Algorithm_Study.dir/ICPC_winter_2022/시간복잡도_정렬/boj1448_삼각형만들기.cpp.o	d7c665e1050f327
-6	1040	1642087182603508453	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/boj2447_별찍기.cpp.o	8e3c8a07700aa531
 3701	4595	1642087007726470653	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/동적계획법/boj11047_동전0/boj11047_동전0/boj11047_동전0.cpp.o	9f3baf7f90a97b20
 1422	2153	1642087005290785252	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/EPPER/문자열압축/문자열압축/문자열압축.cpp.o	b4a0f1e9ad0c77ee
+988	1025	1642087182594634462	CMakeFiles/Algorithm_Study.dir/ICPC_winter_2022/시간복잡도_정렬/boj1448_삼각형만들기.cpp.o	d7c665e1050f327
+4056	5019	1642087008156054720	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/문자열/boj1152_단어의개수/boj1152_단어의개수/boj1152_단어의개수.cpp.o	3c7658ab7da9552
+5	1370	1642087045787885206	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/스택,_큐,_덱/boj18258_큐2/boj18258_큐2/boj18258_큐2.cpp.o	cedec33e20308a8a
+1287	2769	1642087005900835146	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/EPPER/boj19538_루머/boj19538_루머/boj19538_루머.cpp.o	fc5522f277f38053
+6	1040	1642087182603508453	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/재귀/boj2447_별찍기/boj2447_별찍기/boj2447_별찍기.cpp.o	8e3c8a07700aa531
 4540	5397	1642087008537847810	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/브루트포스/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기/boj1018_체스판다시칠하기.cpp.o	2b7011b0dbc886e6
 2089	2588	1642087005726570756	CMakeFiles/Algorithm_Study.dir/C++_알고리즘/EPPER/산신령/산신령/산신령.cpp.o	d5568d9840252f95
 29	1172	1642087182737831263	CMakeFiles/Algorithm_Study.dir/EDOC/src/그리디/boj4889.cpp.o	6ca9e33efc953a3d

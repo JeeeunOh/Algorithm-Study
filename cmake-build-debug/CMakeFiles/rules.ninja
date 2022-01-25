@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__Algorithm_Study_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/82DB4B26-8EB5-4ED3-90A0-0A58172ED219/d/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ojieun/Desktop/Algorithm_Study -B/Users/ojieun/Desktop/Algorithm_Study/cmake-build-debug
+  command = /private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/475BC080-8A2A-4563-BEDB-607F6F6FF3B5/d/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ojieun/Desktop/Algorithm_Study -B/Users/ojieun/Desktop/Algorithm_Study/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/82DB4B26-8EB5-4ED3-90A0-0A58172ED219/d/CLion.app/Contents/bin/ninja/mac/ninja $FILE_ARG -t clean $TARGETS
+  command = /private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/475BC080-8A2A-4563-BEDB-607F6F6FF3B5/d/CLion.app/Contents/bin/ninja/mac/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/82DB4B26-8EB5-4ED3-90A0-0A58172ED219/d/CLion.app/Contents/bin/ninja/mac/ninja -t targets
+  command = /private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/475BC080-8A2A-4563-BEDB-607F6F6FF3B5/d/CLion.app/Contents/bin/ninja/mac/ninja -t targets
   description = All primary targets available:
 

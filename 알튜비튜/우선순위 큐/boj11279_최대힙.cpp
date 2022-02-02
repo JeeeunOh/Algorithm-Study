@@ -7,16 +7,13 @@ using namespace std;
 vector<int> heap;
 
 //empty
-bool empty() {
-    return heap.size() == 1;
-}
+bool empty() { return heap.size() == 1; }
 
 //push
 void push(int num) {
     int idx = heap.size(); //이번에 push할 데이터의 인덱스
     heap.push_back(num);
 
-    //root = 1에 도달하거나, 더이상 상위노드보다 값이 크지 않다면 반복문 탈출
     while (idx != 1 && heap[idx] > heap[idx / 2]) {
         swap(heap[idx], heap[idx / 2]); //하위노드와 상위노드의 값을 바꿈
         idx /= 2; //상위노드로 이동

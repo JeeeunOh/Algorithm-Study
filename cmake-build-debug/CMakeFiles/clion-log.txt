@@ -1,4 +1,4 @@
-/private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/5E354464-E802-44B4-B708-826F0B24A466/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/5E354464-E802-44B4-B708-826F0B24A466/d/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/ojieun/Desktop/Algorithm_Study
+/private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/12BF1B41-6098-42F1-8507-A8580B8F48FC/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/private/var/folders/58/__5s4gbd7t16k89jd4rg4b6w0000gn/T/AppTranslocation/12BF1B41-6098-42F1-8507-A8580B8F48FC/d/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/ojieun/Desktop/Algorithm_Study
 -- The C compiler identification is AppleClang 12.0.0.12000032
 -- The CXX compiler identification is AppleClang 12.0.0.12000032
 -- Detecting C compiler ABI info

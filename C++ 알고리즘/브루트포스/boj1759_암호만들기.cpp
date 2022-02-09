@@ -5,7 +5,7 @@ using namespace std;
 
 int l,c; // 암호길이, 문자 수
 vector<string> v;
-string output[15];
+string output[16];
 
 void sol(int len, int temp, int mo, int ja){ // 출력값길이, 탐색인덱스, 모음, 자음
     if(len==l){ // 출력값 길이가 l이면서

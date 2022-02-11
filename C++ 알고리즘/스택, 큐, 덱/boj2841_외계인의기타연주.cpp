@@ -30,6 +30,5 @@ int main(){
             cnt++;
         }
     }
-
     cout << cnt << "\n";
 }

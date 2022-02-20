@@ -23,7 +23,7 @@ int main(){
             if(num<0) break; // 합이 num이 되는 수열 다 찾았으므로 반복문 종료
         }
 
-        // k=0에는 0값 들어있으므로 k=1까지 탐색해줌
+        // k=0에는 0값 들어있으므로 k=1까지 탐색해줌 // 커밋
         for(int k=ans.size()-1 ; k>=0 ; k--) cout<<ans[k]<<" "; 
         cout<<endl;
     }

@@ -5,7 +5,8 @@
         "queue": "cpp",
         "vector": "cpp",
         "ostream": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "map": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

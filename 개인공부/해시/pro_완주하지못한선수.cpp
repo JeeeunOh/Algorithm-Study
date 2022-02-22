@@ -13,3 +13,7 @@ string solution(vector<string> participant, vector<string> completion) {
         if(m[p]<0) return p;
     }
 }
+
+int main(){
+    
+}

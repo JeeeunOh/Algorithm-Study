@@ -6,7 +6,8 @@
         "vector": "cpp",
         "ostream": "cpp",
         "bitset": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "algorithm": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

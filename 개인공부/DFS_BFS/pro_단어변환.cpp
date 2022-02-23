@@ -25,7 +25,6 @@ void dfs(string begin, string target,vector<string>words,int step){
     answer = min(answer,step);
     return;
   }
-  
   for(int i=0; i<words.size();i++){
     // 한개의 문자만 다르고 방문 하지 않은 단어이면 탐색 시작
     if(check_diff(begin,words[i]) && !visited[i]){

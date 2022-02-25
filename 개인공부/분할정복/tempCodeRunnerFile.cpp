@@ -1,0 +1,1 @@
+solution(x,y+size/2,size/2);

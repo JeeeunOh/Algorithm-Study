@@ -1,3 +1,11 @@
+//
+//  SM_BOJ14503_로봇청소기.cpp
+//  Coding_Test_Practice
+//
+//  Created by 김난영 on 2021/03/21.
+//  Copyright © 2021 KimNanyoung. All rights reserved.
+//
+
 #include <iostream>
 
 using namespace std;

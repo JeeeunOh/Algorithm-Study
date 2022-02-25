@@ -9,5 +9,8 @@
         "map": "cpp",
         "algorithm": "cpp"
     },
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && clang++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    },
     "C_Cpp.errorSquiggles": "Disabled"
 }

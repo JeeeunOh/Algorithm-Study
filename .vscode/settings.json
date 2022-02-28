@@ -7,7 +7,10 @@
         "ostream": "cpp",
         "bitset": "cpp",
         "map": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "__bit_reference": "cpp",
+        "chrono": "cpp",
+        "utility": "cpp"
     },
     "code-runner.executorMap": {
         "cpp": "cd $dir && clang++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",

@@ -1,5 +1,8 @@
 -- MY SQL / JOIN
 
+-- INNER JOIN : 내부조인 -> 교집합
+-- LEFT/ RIGHT JOIN -> 부분집합
+
 -- 천재지변으로 인해 일부 데이터가 유실되었습니다. 입양을 간 기록은 있는데, 
 -- 보호소에 들어온 기록이 없는 동물의 ID와 이름을 ID 순으로 조회하는 SQL문을 작성해주세요.
 -- LEFT OUTER JOIN : 입양을 간 기록이 있으므로 JOIN의 왼쪽에 ANIMAL_OUTS 테이블이 필요
@@ -32,8 +35,12 @@ WHERE OUTS.DATETIME IS NULL
 ORDER BY INS.DATETIME
 LIMIT 3
 
+
+
 -- 보호소에 들어올 당시에는 중성화1되지 않았지만, 
 -- 보호소를 나갈 당시에는 중성화된 동물의 아이디와 생물 종, 이름을 조회하는 아이디 순으로 조회하는 SQL 문을 작성해주세요.
+
+-- % 는 모든 문자, _ 는 한 글자
 
 SELECT INS.ANIMAL_ID, INS.ANIMAL_TYPE, INS.NAME
 FROM ANIMAL_INS INS LEFT OUTER JOIN ANIMAL_OUTS OUTS ON INS.ANIMAL_ID = OUTS.ANIMAL_ID

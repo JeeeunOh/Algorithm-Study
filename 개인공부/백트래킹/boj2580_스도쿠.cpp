@@ -17,9 +17,8 @@ bool solve(int num){
     // 마지막 칸이면 스도쿠 출력
     if(num == 81) {
         for(int i=0; i<9; i++){
-            for(int j=0; j<9; j++){
+            for(int j=0; j<9; j++)
                 cout << sudoku[i][j] << ' ';
-            }
             cout << endl;
         }
         return true;
@@ -40,9 +39,7 @@ bool solve(int num){
                 check_square[get_square(x, y)][i] = true;
                 sudoku[x][y] = i;
                 
-                if(solve(num+1)){
-                    return true;
-                }
+                if(solve(num+1)) return true; 
                 
                 // 다시 돌려놓기 (백트래킹)
                 check_row[x][i] = false;

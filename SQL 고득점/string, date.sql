@@ -5,7 +5,7 @@
 SELECT ANIMAL_ID, NAME, SEX_UPON_INTAKE
 FROM ANIMAL_INS
 WHERE NAME IN ('Lucy', 'Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty')
-ORDER BY ANIMAL_ID ASC
+ORDER BY ANIMAL_ID
 
 -- [이름에 el이 들어가는 동물 찾기]
 -- 보호소에 돌아가신 할머니가 기르던 개를 찾는 사람이 찾아왔습니다. 
@@ -17,6 +17,13 @@ SELECT ANIMAL_ID, NAME
 FROM ANIMAL_INS
 WHERE NAME LIKE '%el%' AND ANIMAL_TYPE = 'Dog'
 ORDER BY NAME
+
+SELECT ANIMAL_ID, NAME, SEX_UPON_INTAKE
+FROM ANIMAL_INS
+WHERE SEX_UPON_INTAKE IN ('%Neutered%', '%Neutered%')
+ORDER BY ANIMAL_ID
+
+
 
 -- [중성화 여부 파악하기]
 -- 보호소의 동물이 중성화되었는지 아닌지 파악하려 합니다. 

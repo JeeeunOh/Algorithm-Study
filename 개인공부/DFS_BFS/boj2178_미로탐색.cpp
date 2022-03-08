@@ -2,14 +2,6 @@
 #include <queue>
 using namespace std;
 
-/*
-4 6
-101111
-101010
-101011
-111011
-*/
-
 int N, M;
 int check[101][101]; // 시작점으로부터의 거리 표시
 int visit[101][101]; // 방문표시

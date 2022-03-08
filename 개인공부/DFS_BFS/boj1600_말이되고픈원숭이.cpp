@@ -15,10 +15,9 @@ int dy[] = { 1, -1, 0, 0 };
 int hdx[] = { -1, -2, -2, -1, 1, 2, 2, 1 };
 int hdy[] = { -2, -1, 1, 2, 2, 1, -1, -2 };
  
-void Solve()
-{
-    cin >> K;
-    cin >> W >> H;
+void Solve(){
+    cin >> K; // 원숭이 동작수 최솟값
+    cin >> W >> H; // 격자판 크기
     for (int i = 0; i < H; i++)
         for (int j = 0; j < W; j++)
             cin >> MAP[i][j];
@@ -54,6 +53,7 @@ void Solve()
                 }
             }
         }
+        
         // 원숭이처럼 이동 그 이후는 위와 같음
         for (int i = 0; i < 4; i++){
             int nx = x + dx[i];
@@ -74,9 +74,6 @@ void Solve()
  
 int main(void)
 {
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
  
     Solve();
  

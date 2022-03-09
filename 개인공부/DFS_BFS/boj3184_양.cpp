@@ -42,7 +42,5 @@ int main(){
             if(arr[i][j]=="v") b++;
         }
     }
-
-
-
+    cout << a << " " << b << endl;
 }

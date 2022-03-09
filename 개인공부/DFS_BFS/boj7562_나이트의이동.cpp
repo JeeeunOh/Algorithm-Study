@@ -12,7 +12,7 @@ int main(){
     while(T--){
         int n;
         int x1, y1, x2, y2;
-        int check[301][301];
+        int check[301][301]={0};
         queue<pair<int,int>> q;
 
         

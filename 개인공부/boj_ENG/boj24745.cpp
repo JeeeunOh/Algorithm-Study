@@ -2,8 +2,9 @@
 #include <string>
 using namespace std;
 
-string sol(string a){
-    string s = a;
+string sol(char a){
+    string s ;
+    s+=a;
     if(s=="A" || s=="a"){
         return ".-";
     } else if ( s=="B" || s=="b"){
@@ -80,12 +81,12 @@ string sol(string a){
 
 int main(){
     string s;
-    string temp="";
+    string temp;
 
     cin >> s;
 
     for(int i=0 ;i<s.length(); i++){
-        string input=s[i];
+        char input=s[i];
         temp+=sol(input);
     }
 

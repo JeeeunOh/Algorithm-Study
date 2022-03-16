@@ -1,2 +1,1 @@
-
- 
+cout << dp[i] << endl;

@@ -2,6 +2,9 @@
 #include <queue>
 using namespace std;
 
+int dx[]={-1,1,0,0};
+int dy[]={0,0,-1,1};
+
 queue<pair<pair<int, int>, int>> q; // x좌표, y좌표, 남은 벽 갯수
 
 // 0은 빈칸, 1은 벽, 2는 바이러스

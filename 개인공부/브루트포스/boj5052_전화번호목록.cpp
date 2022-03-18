@@ -11,10 +11,10 @@ int main() {
     cin >> t;
     
     vector<string> phoneVec;
+    int n;
     
     while(t--) {
-        int n;
-        bool flag = true;
+        bool flag = 1;
         
         cin >> n;
         
@@ -25,21 +25,29 @@ int main() {
         }
  
         sort(phoneVec.begin(), phoneVec.end());
+
+        for(int i=0 ; i<n ; i++){
+            cout << phoneVec[i] << endl;
+        }
  
         for (int k = 0; k <= phoneVec.size()-2; k++) {
             int currentLen = phoneVec[k].length();
             int nextLen = phoneVec[k+1].length();
  
-            if (currentLen >= nextLen) continue; 
+            if (currentLen >= nextLen) {
+                continue;
+            }
  
             if (phoneVec[k + 1].substr(0, currentLen)== phoneVec[k]) {
-                flag = false;
+                flag = 0;
                 cout << "NO" << endl;
                 break;
             }
         }
  
-        if (flag) cout << "YES" << endl; 
+        if (flag==1) {
+            cout << "YES" << endl;
+        }
  
         phoneVec.clear();
     }

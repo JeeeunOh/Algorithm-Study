@@ -11,7 +11,7 @@ vector<string> v;
 
 bool gitar(string a, string b){
     if(a.length()!=b.length()){ // 스트링 길이 다르면
-        return a.length()<b.length(); // a가 더 길면 a를 뒤로
+        return a.length()<b.length(); // b가 더 길면 양수 : b가 뒤에 있음. 
     } else { // 스트링 길이 같으면
         int sumA=0, sumB=0;
         for(int i=0 ; i<a.length(); i++){

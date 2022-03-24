@@ -23,11 +23,10 @@ bool gitar(string a, string b){
 
         if(sumA!=sumB){ // 합을 비교해서 작은게 앞으로
             return sumA < sumB;
-        } else{ // 합 같으면 사전순으로
+        } else { // 합 같으면 사전순으로
             return a<b;
         }
     }
-
 }
 
 int main(){

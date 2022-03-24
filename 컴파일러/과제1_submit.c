@@ -73,7 +73,7 @@ void PrintHStable() {
 	int i, j;
 	HTpointer here;
  
-	printf("[[HASH TABLE]]");
+	printf("\n[[HASH TABLE]]\n");
  
 	for (i = 0;i<HTsize;i++) {
 		if (HT[i] != NULL) {
@@ -94,15 +94,15 @@ void PrintHStable() {
 void PrintError( ERRORtypes err ){
   switch( err ) {
     case overst : 
-      printf("...Error...   OVERFLOW ");
+      printf("  ...Error...   OVERFLOW ");
       PrintHStable();
       exit(0);
       break;
     case illsp :
-      printf("...Error...  %c is illegal seperator \n", input);
+      printf("  ...Error...  %c is illegal seperator \n", input);
       break;
     case illid : 
-      printf("...Error... ");
+      printf("  ...Error... ");
       while( input != EOF && (isLetter(input) || isDigit(input)) ) {
 	printf("%c", input);
 	input = fgetc( fp );
@@ -203,16 +203,16 @@ int main(){
 			LookupHS(nextid, hashcode);
 	
 			if (!found) { // 같은 해시 값 찾지 못했을 때
-				printf("%10d ", nextid);
+				printf("     %d          ", nextid);
 				for ( i=nextid ; i<nextfree-1 ; i++ ) printf("%c", ST[i]); 
-				printf("          (entered)\n");
+				printf("                  (entered)\n");
 				ADDHT(hashcode);
 			}
 
 			else { // 같은 해시 값 찾았을 때
-				printf("%6d          sameid");
+				printf("     %d          sameid");
 				for ( i=nextid ; i<nextfree-1 ; i++ ) printf("%c", ST[i]);  
-				printf("          (already existed)\n");
+				printf("                  (already existed)\n");
 				nextfree = nextid;
 			}
 		}

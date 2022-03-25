@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
  
-#define FILE_NAME "testdata1.txt"
+#define FILE_NAME "testdata.txt"
  
 #define STsize 1000
 #define HTsize 100
@@ -15,8 +15,8 @@
 
 typedef struct HTentry *HTpointer;
 typedef struct HTentry {
-	int index; //index of identifier in ST
-	HTpointer next; //pointer to next identifier
+	int index; 
+	HTpointer next;
 }HTentry;
  
 enum errorTypes { noerror, illsp, illid, overst };
@@ -27,26 +27,22 @@ char seperators[] = ".,;:?!\t\n";
 HTpointer HT[HTsize];
 char ST[STsize];
  
-int nextid = 0;  //the current identifier
-int nextfree = 0;  //the next available index of ST
-int hashcode;  //hash code of identifier
-int sameid;  //first index of identifier
-
-int found;  //for the previous occurrence of an identifie
+int nextid = 0;
+int nextfree = 0;  
+int hashcode; 
+int sameid;
+int found; 
 
 ERRORtypes err;
 
-FILE *fp;   //to be a pointer to FILE 
+FILE *fp;
 char input;
- 
-//Initialize - open input file
 
 void initialize(){
   fp = fopen(FILE_NAME, "r");
   input = fgetc( fp );
 }
 
-//isSerperator  -  distinguish the seperator
 int isSeperator(char c) {
   int i;
   int sep_len;
@@ -58,8 +54,7 @@ int isSeperator(char c) {
   }
   return 0;
 }
- 
-//printHeading	 -		Print the heading
+
 void PrintHeading(){
   printf("\n\n");
   printf("  -----------      ------------ \n");

@@ -2,15 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
  
-#define FILE_NAME "testdata.txt"
+#define FILE_NAME "testdata1.txt"
  
 #define STsize 1000
 #define HTsize 100
  
-#define FALSE 0
-#define TRUE 1
- 
-#define isLetter(x) ( ((x) >= 'a' && (x) <='z') || ((x) >= 'A' && (x) <= 'Z') )
+#define isLetter(x) ( ((x) >= 'a' && (x) <='z') || ((x) >= 'A' && (x) <= 'Z') || (x) == '_' )
 #define isDigit(x) ( (x) >= '0' && (x) <= '9' )
 
 typedef struct HTentry *HTpointer;
@@ -19,21 +16,19 @@ typedef struct HTentry {
 	HTpointer next;
 }HTentry;
  
-enum errorTypes { noerror, illsp, illid, overst };
+enum errorTypes { noerror, illsp, illid, overst, toolong };
 typedef enum errorTypes ERRORtypes;
  
-char seperators[] = ".,;:?!\t\n";
- 
+char seperators[] = " .,;:?!\t\n";
+
 HTpointer HT[HTsize];
 char ST[STsize];
  
-int nextid = 0;
-int nextfree = 0;  
-int hashcode; 
-int sameid;
+int nextid = 0, nextfree = 0;  
+int hashcode, sameid;
 int found; 
 
-ERRORtypes err;
+ERRORtypes error;
 
 FILE *fp;
 char input;
@@ -49,8 +44,7 @@ int isSeperator(char c) {
 
   sep_len = strlen(seperators);
   for( i = 0 ; i < sep_len; i++ ) {
-    if( c == seperators[i] )
-      return 1;
+    if( c == seperators[i] ) return 1;
   }
   return 0;
 }
@@ -63,103 +57,116 @@ void PrintHeading(){
   printf("\n");
 }
 
-// 교수님이 안 주심
 void PrintHStable() {
-	int i, j;
-	HTpointer here;
- 
-	printf("\n[[HASH TABLE]]\n");
- 
-	for (i = 0;i<HTsize;i++) {
-		if (HT[i] != NULL) {
-			printf("Hash code %3d: ", i);
-			for (here = HT[i];here != NULL;here = here->next) {
-				j = here->index;
-				while (ST[j] != '\0'&&j<STsize) {
-					printf("%c", ST[j++]);
-				}
-				printf("    ");
-			}
-			printf("\n");
-		}
-	}
-	printf("\n\n\n < %5d characters are used in the string table >\n", nextfree);
+    HTpointer pointer;
+    printf("\n\n[[  HASH TABLE  ]]\n\n");
+
+    for (int i = 0; i < HTsize; i++) {
+        pointer = HT[i];
+        if (pointer != NULL) {
+            printf("Hash Code %3d : ", i);
+            while (pointer != NULL) {
+                int data = pointer->index;
+                while (data < STsize && ST[data] != '\0') {
+                    printf("%c", ST[data]);
+                    data++;
+                }
+                printf("   ");
+                pointer = pointer->next;
+            }
+            printf("\n");
+        }
+    }
+    printf("\n<%d characters are used in the string table>\n", nextfree);
 }
 
 void PrintError( ERRORtypes err ){
   switch( err ) {
-    case overst : 
-      printf("  ...Error...   OVERFLOW ");
-      PrintHStable();
-      exit(0);
-      break;
-    case illsp :
-      printf("  ...Error...  %c is illegal seperator \n", input);
-      break;
-    case illid : 
-      printf("  ...Error... ");
-      while( input != EOF && (isLetter(input) || isDigit(input)) ) {
-	printf("%c", input);
-	input = fgetc( fp );
-      }
-      printf(" start with digit \n");
-      break;
+      case overst :
+          printf("...Error...                            OVERFLOW ");
+          PrintHStable();
+          exit(0);
+          break;
+      case illsp :
+          printf("...Error...         %c                  is illegal seperator \n", input);
+          break;
+      case illid :
+          printf("...Error...     ");
+          while( input != EOF && (isLetter(input) || isDigit(input)) ) {
+              printf("%c", input);
+              input = fgetc( fp );
+          }
+          printf("                             start with digit \n");
+          break;
+      case toolong :
+          printf("...Error...     ");
+          while( input != EOF && (isLetter(input) || isDigit(input)) ) {
+              printf("%c", input);
+              input = fgetc( fp );
+          }
+          printf("                            too long identifier \n");
+          break;
   }
 }
 
 void SkipSeperators(){
   while( input != EOF && !( isLetter(input) || isDigit(input) ) ) {
     if( !isSeperator(input) ) {
-      err = illsp;
-      PrintError( err );
+      error = illsp;
+      PrintError( error );
     }
     input = fgetc( fp );
   }
 }
 
-// 겨수님이 안 주심
 void ReadID() {
-	nextid = nextfree;
-	if (isDigit(input)) {
-		err = illid;
-		PrintError(err);
-	}
-	else{
-		while(input!=EOF&&(isLetter(input)||isDigit(input))){
-			if(nextfree==STsize){
-				err=overst;
-				PrintError(err);
-			}
-			ST[nextfree++]=input;
-			input=fgetc(fp);
-		}
-	}
+    nextid = nextfree;
+    int count = 0;
+    
+    if (isLetter(input)) {
+        count++;
+        while(input != EOF && (isLetter(input) || isDigit(input))) {
+            count++;
+            if (nextfree == STsize) {
+                error = overst;
+                PrintError(error);
+            }
+            if (count >= 12) {
+                PrintError(toolong);
+            }
+            ST[nextfree] = input;
+            nextfree++;
+            input = fgetc(fp);
+        }
+    } else {
+        error = illid;
+        PrintError(error);
+    }
 }
 
-void ComputeHS(int nid, int nfree){
-	int code, i;
-	code = 0;
-	for (i = nid;i<nfree - 1;i++) {
-		code += (int)ST[i];
-	}
-	hashcode = code%HTsize;
+void ComputeHS( int nid, int nfree ){
+    int sum = 0;
+    for (int i = nid; i < nfree; i++) {
+        sum += ST[i];
+    }
+    hashcode = sum % HTsize;
 }
 
 void LookupHS( int nid, int hscode ){
 	int a,b;
 	HTpointer cur;
-	found = FALSE;
+	found = 0;
 	
 	if ( HT[hscode]!= NULL ) {
 		cur = HT[hscode];
-		while ( cur!= NULL && found == FALSE ) {
+		while ( cur!= NULL && found == 0 ) {
 			b = cur->index;
 			b = nid;
 			sameid = a;
-			found = TRUE;
+			found = 1;
  
-			while ( ST[a]!= '\0' && ST[b] != '\0' && found == TRUE ) {
-				if ( ST[a]!= ST[b] ) found = FALSE;
+			while ( ST[a]!= '\0' && ST[b] != '\0' && found == 1 ) {
+				if ( ST[a]!= ST[b] ) found = 0;
 				else {
 					a++;
 					b++;
@@ -184,13 +191,13 @@ int main(){
   	initialize();
 
   	while(input!= EOF) { // 파일의 끝에 도달할때까지 반복
-		err = noerror; // 에러가 없다고 가정
+		error = noerror; // 에러가 없다고 가정
 		SkipSeperators();
 		ReadID();
-		if( input!= EOF && err!= illid ) {
+		if( input!= EOF && error!= illid ) {
 			if (nextfree == STsize) { // 스택 오버플로가 일어났을 때 에러 출력
-				err = overst;
-				PrintError(err);
+				error = overst;
+				PrintError(error);
 			}
 
 			ST[nextfree++] = '\0'; // 문자열의 끝임을 표현해주고
@@ -200,14 +207,14 @@ int main(){
 			if (!found) { // 같은 해시 값 찾지 못했을 때
 				printf("     %d          ", nextid);
 				for ( i=nextid ; i<nextfree-1 ; i++ ) printf("%c", ST[i]); 
-				printf("                  (entered)\n");
+				printf("                            (entered)\n");
 				ADDHT(hashcode);
 			}
 
 			else { // 같은 해시 값 찾았을 때
-				printf("     %d          sameid");
+				printf("     %d              sameid ");
 				for ( i=nextid ; i<nextfree-1 ; i++ ) printf("%c", ST[i]);  
-				printf("                  (already existed)\n");
+				printf("                            (already existed)\n");
 				nextfree = nextid;
 			}
 		}

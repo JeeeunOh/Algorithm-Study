@@ -111,17 +111,7 @@ void PrintHStable() {
 	}
 	printf("\n\n\n < %5d characters are used in the string table >\n", nextfree);
 }
- 
-//4페이지
- 
-/* PrintError - Print out error messages
-overst : overflow in ST
-print the hashtable and abort by calling the function "abort()".
-illid : illegal identifier
-illsp :illegal seperator
-toolong : too long identifier
-에러 원인은 다른 함수에서 정의하고, 메세지만 출력한다.
-*/
+
 void PrintError(ERRORtypes err) {
 	switch (err) {
 	case overst:

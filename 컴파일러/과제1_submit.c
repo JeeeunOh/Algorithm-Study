@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
  
-#define FILE_NAME "testdata1.txt"
+#define FILE_NAME "testdata_noerror3.txt"
  
 #define STsize 1000
 #define HTsize 100
@@ -18,7 +18,7 @@ typedef struct HTentry {
  
 enum errorTypes { noerror, illsp, illid, overst, toolong };
 typedef enum errorTypes ERRORtypes;
- 
+
 char seperators[] = " .,;:?!\t\n";
 
 HTpointer HT[HTsize];
@@ -26,7 +26,9 @@ char ST[STsize];
  
 int nextid = 0, nextfree = 0;  
 int hashcode, sameid;
-int found; 
+int found;
+int longFlag=0; // 문자열 길이가 12가 넘으면 TRUE처리
+char lastChar[1024]="";
 
 ERRORtypes error;
 
@@ -36,17 +38,6 @@ char input;
 void initialize(){
   fp = fopen(FILE_NAME, "r");
   input = fgetc( fp );
-}
-
-int isSeperator(char c) {
-  int i;
-  int sep_len;
-
-  sep_len = strlen(seperators);
-  for( i = 0 ; i < sep_len; i++ ) {
-    if( c == seperators[i] ) return 1;
-  }
-  return 0;
 }
 
 void PrintHeading(){
@@ -80,32 +71,47 @@ void PrintHStable() {
     printf("\n<%d characters are used in the string table>\n", nextfree);
 }
 
+int isSeperator(char c) {
+  int i;
+  int sep_len;
+
+  sep_len = strlen(seperators);
+  for( i = 0 ; i < sep_len; i++ ) {
+    if( c == seperators[i] ) return 1;
+  }
+  return 0;
+}
+
 void PrintError( ERRORtypes err ){
   switch( err ) {
-      case overst :
-          printf("...Error...                            OVERFLOW ");
-          PrintHStable();
-          exit(0);
-          break;
-      case illsp :
-          printf("...Error...         %c                  is illegal seperator \n", input);
-          break;
-      case illid :
-          printf("...Error...     ");
-          while( input != EOF && (isLetter(input) || isDigit(input)) ) {
-              printf("%c", input);
-              input = fgetc( fp );
-          }
-          printf("                             start with digit \n");
-          break;
-      case toolong :
-          printf("...Error...     ");
-          while( input != EOF && (isLetter(input) || isDigit(input)) ) {
-              printf("%c", input);
-              input = fgetc( fp );
-          }
-          printf("                            too long identifier \n");
-          break;
+    case overst :
+        printf("...Error...       OVERFLOW ");
+        PrintHStable();
+        exit(0);
+        break;
+    case illsp :
+        printf("...Error...       %c is illegal seperator \n", input);
+        break;
+    case illid :
+        printf("...Error...       ");
+        while( input != EOF && (isLetter(input) || isDigit(input)) ){ 
+            printf("%c", input);
+            input = fgetc( fp );
+        }
+        printf(" start with digit \n");
+        break;
+    case toolong :
+        printf("...Error...       ");
+        for(int i=0 ; i<strlen(lastChar); i++){
+            printf("%c", lastChar[i]);
+        }
+        while( input != EOF && (isDigit(input) || isLetter(input)) ){
+            printf("%c", input);
+            input = fgetc( fp );
+        }
+        printf(" too long identifier \n");
+        break;
+    default : break;
   }
 }
 
@@ -123,24 +129,31 @@ void ReadID() {
     nextid = nextfree;
     int count = 0;
     
-    if (isLetter(input)) {
-        count++;
+    if (isDigit(input)) {
+        error = illid;
+        PrintError(error);
+    }
+    else {
+        lastChar[0] = '\0'; // 배열 내용 지움
         while(input != EOF && (isLetter(input) || isDigit(input))) {
-            count++;
             if (nextfree == STsize) {
                 error = overst;
                 PrintError(error);
             }
-            if (count >= 12) {
-                PrintError(toolong);
-            }
+
+            strcat(lastChar, &input);
+    
             ST[nextfree] = input;
             nextfree++;
             input = fgetc(fp);
+            count++;
+
+            if (count > 12) {
+                PrintError(toolong);
+                nextfree-=14;
+                longFlag=1;
+            }
         }
-    } else {
-        error = illid;
-        PrintError(error);
     }
 }
 
@@ -152,18 +165,18 @@ void ComputeHS( int nid, int nfree ){
     hashcode = sum % HTsize;
 }
 
-void LookupHS( int nid, int hscode ){
+void LookupHS( int nid, int hscode ){ // 같은 해시코드 있는지 확인
 	int a,b;
 	HTpointer cur;
-	found = 0;
+	found = 0; // 없다고 가정하고 찾기
 	
-	if ( HT[hscode]!= NULL ) {
+	if ( HT[hscode]!= NULL ) { // 해당 해시코드 자리가 비어있지 않으면
 		cur = HT[hscode];
-		while ( cur!= NULL && found == 0 ) {
-			b = cur->index;
+		while ( cur!= NULL && found == 0 ) { // cur이 비어있지 않고 아직 같은 해시코드 찾지 못했으면
+            found = 1; // 찾았다고 해주고
+			a = cur->index; // b는 현재 index
 			b = nid;
 			sameid = a;
-			found = 1;
  
 			while ( ST[a]!= '\0' && ST[b] != '\0' && found == 1 ) {
 				if ( ST[a]!= ST[b] ) found = 0;
@@ -194,7 +207,7 @@ int main(){
 		error = noerror; // 에러가 없다고 가정
 		SkipSeperators();
 		ReadID();
-		if( input!= EOF && error!= illid ) {
+		if(error!= illid ) {
 			if (nextfree == STsize) { // 스택 오버플로가 일어났을 때 에러 출력
 				error = overst;
 				PrintError(error);
@@ -204,19 +217,21 @@ int main(){
 			ComputeHS(nextid, nextfree);
 			LookupHS(nextid, hashcode);
 	
-			if (!found) { // 같은 해시 값 찾지 못했을 때
-				printf("     %d          ", nextid);
+			if (!found && longFlag==0) { // 같은 해시 값 찾지 못했을 때
+				printf("     %3d          ", nextid);
 				for ( i=nextid ; i<nextfree-1 ; i++ ) printf("%c", ST[i]); 
 				printf("                            (entered)\n");
-				ADDHT(hashcode);
+				ADDHT(hashcode); // 해시코드 추가해줌
 			}
 
-			else { // 같은 해시 값 찾았을 때
-				printf("     %d              sameid ");
+			else if (found && longFlag==0) { // 같은 해시 값 찾았을 때
+				printf("     %3d         ", sameid);
 				for ( i=nextid ; i<nextfree-1 ; i++ ) printf("%c", ST[i]);  
 				printf("                            (already existed)\n");
 				nextfree = nextid;
-			}
+			} else if(longFlag==1){ // longFlag 처리
+                longFlag=0;
+            }
 		}
 	}
 	PrintHStable();

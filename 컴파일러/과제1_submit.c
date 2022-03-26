@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
  
-#define FILE_NAME "testdata_noerror3.txt"
+#define FILE_NAME "testdata1.txt"
  
 #define STsize 1000
 #define HTsize 100
@@ -29,6 +29,8 @@ int hashcode, sameid;
 int found;
 int longFlag=0; // 문자열 길이가 12가 넘으면 TRUE처리
 char lastChar[1024]="";
+
+int lastCharIndex; // 오버플로우 때 이제까지 완전하게 받은 char 개수가 몇개인지 저장
 
 ERRORtypes error;
 
@@ -68,7 +70,8 @@ void PrintHStable() {
             printf("\n");
         }
     }
-    printf("\n<%d characters are used in the string table>\n", nextfree);
+    if(error==overst) printf("\n<%d characters are used in the string table>\n", lastCharIndex);
+    else printf("\n<%d characters are used in the string table>\n", nextfree);
 }
 
 int isSeperator(char c) {
@@ -174,7 +177,7 @@ void LookupHS( int nid, int hscode ){ // 같은 해시코드 있는지 확인
 		cur = HT[hscode];
 		while ( cur!= NULL && found == 0 ) { // cur이 비어있지 않고 아직 같은 해시코드 찾지 못했으면
             found = 1; // 찾았다고 해주고
-			a = cur->index; // b는 현재 index
+			a = cur->index; 
 			b = nid;
 			sameid = a;
  
@@ -206,13 +209,14 @@ int main(){
   	while(input!= EOF) { // 파일의 끝에 도달할때까지 반복
 		error = noerror; // 에러가 없다고 가정
 		SkipSeperators();
+        if(input==EOF) break;
 		ReadID();
 		if(error!= illid ) {
 			if (nextfree == STsize) { // 스택 오버플로가 일어났을 때 에러 출력
 				error = overst;
 				PrintError(error);
 			}
-
+            lastCharIndex=nextfree;
 			ST[nextfree++] = '\0'; // 문자열의 끝임을 표현해주고
 			ComputeHS(nextid, nextfree);
 			LookupHS(nextid, hashcode);

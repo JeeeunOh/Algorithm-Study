@@ -1,1 +1,2 @@
-cout << dp[i] << endl;
+
+    next1=cur/2;

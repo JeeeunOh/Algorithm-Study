@@ -16,7 +16,7 @@ void solution(int cur){
     res+=next1*next2;
     if(next1!=1) solution(next1);
     if(next2!=1) solution(next2);
-}
+}쵸
 
 int main(){
     int n;

@@ -20,7 +20,7 @@ end                             return(TEND);
 %%
 
 void main(){
-    enum tnumber tn; /* token number *
+    enum tnumber tn; /* token number */
     printf(" Start of Lex\n");
     while ((tn=yylex()) != TEOF){
         switch (tn){

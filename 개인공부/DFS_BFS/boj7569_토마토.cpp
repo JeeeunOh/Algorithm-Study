@@ -17,19 +17,19 @@ int dz[6] = {0, 0, 0, 0, 1, -1};
 
 
 int main(void) {
-        int cnt = 0;
-        cin >> M >> N >> H;
-        for (int k = 0; k < H; k++)
-                for (int i = 0; i < N; i++)
-                        for (int j = 0; j < M; j++) {
-                            cin >> box[i][j][k];
-                            if (box[i][j][k] == 1) {
-                                bfs.push({i, j, k, 0});
-                                visited[i][j][k] = true;
-                            }
-                            else if (box[i][j][k] == -1)
-                                visited[i][j][k] = true;
-                        }
+    int cnt = 0;
+    cin >> M >> N >> H;
+    for (int k = 0; k < H; k++)
+        for (int i = 0; i < N; i++)
+            for (int j = 0; j < M; j++) {
+                cin >> box[i][j][k];
+                if (box[i][j][k] == 1) {
+                    bfs.push({i, j, k, 0});
+                    visited[i][j][k] = true;
+                }
+                else if (box[i][j][k] == -1)
+                    visited[i][j][k] = true;
+                }
         if (bfs.empty()) {
                 printf("-1");
                 return 0;

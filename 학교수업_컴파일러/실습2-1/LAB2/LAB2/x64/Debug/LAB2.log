@@ -1,0 +1,4 @@
+﻿  lex.yy.c
+lex.yy.c(857,1): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+lex.yy.c(1205,41): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  LAB2.vcxproj -> C:\Users\0909o\OneDrive\바탕 화면\지은자료\컴파 실습2\LAB2\x64\Debug\LAB2.exe

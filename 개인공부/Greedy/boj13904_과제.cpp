@@ -4,13 +4,9 @@
 #include<algorithm>
 using namespace std;
  
-int main(int argc, char *argv[]) 
-{
-	int n;
-	int deadline;
-	int score;
-	int end;
-	int result = 0;
+int main() {
+	int n, end, result = 0;
+	int deadline, score;
 	int arr[1001];
 	vector<pair<int, int> > v;
  
@@ -32,17 +28,13 @@ int main(int argc, char *argv[])
 				arr[end] = v[i].first;
 				break;
 			}
-			else {
-				--end;
-			}
+			else --end; 
 		}
 	}
  
 	for (int i = 1; i <= 1000; i++) {
 		result += arr[i];
 	}
- 
 	cout << result << endl;
- 
 	return 0;
 }

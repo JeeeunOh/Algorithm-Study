@@ -28,4 +28,6 @@ int main(){
         final+=temp;
         if(MAX<temp) MAX=temp; 
     }
+    
+    cout << final << '\n' << MAX << '\n';
 }

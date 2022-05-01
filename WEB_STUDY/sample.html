@@ -1,53 +1,63 @@
-<!-- 웹 통신 API(JS fetch api)
-ajax를 이용한 통신 및 HTML 표시
-미니어 쿼리를 이용한 반응형 웹 구현
-JS의 dom 접근 문법을 사용하여 다크모드를 만드는 기능 -->
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title> 메아리 </title>
-        <style>
-            /* 모든 태그 속성 변경 */
-            div{ 
-                border: 1px solid #000000;
-                width: 300px;
-                height: 200px;
-            }
-            /* 여러 태그에 지정 */
-            .class_1{
-                width: 200px;
-                height: 300px;
-            }
-            /* 한번밖에 쓰지 않음 */
-            #id_1{
-                width: 200px;
-                height: 500px;
-                border: 1px solid black;
-            }
-            .testBox{
-                color: blue;
-                transition-duration: 0.3s;
-            }
-        </style>
-    </head>
-    <body>
-        <h1> 안녕 나는 소마라고 해 </h1>
-        <a href="URL 주소" target="_blank"> 이동한닷 </a>
-        <img src="./photo.jpg" alt="내프로필사진"/>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Aws S3 File Upload</title>
+</head>
+<body>
+<div style="height: 50px;">
+    <input type="file" id="file" style="display: none;">
+    <label for="file" style="color: blue;cursor: pointer">업로드</label>
+    <input type="button" id="remove" style="display: none;">
+    <label for="remove" style="color: red;cursor: pointer">삭제</label>
+</div>
+<div>
+    <img id="img"/>
+</div>
+<script type="text/javascript">
+    document.getElementById("file").addEventListener("change", uploadResource); //업로드 버튼 누르면 uploadResource()함수 작동
+    document.getElementById("remove").addEventListener("click", removeResource);
 
-        <div id="id_1"> </div>
-        <div class="class_1"> </div>
+    function uploadResource() { //업로드 함수
+        const file = document.getElementById("file");
+        const formData = new FormData();
+        formData.append("file", file.files[0]);
 
-        <ul>
-            <li> 사과 </li>
-            <li> 딸기 </li>
-            <li> 바나나 </li>
-        </ul>
+        console.log(file);
+        console.log(formData);
 
-        <script>
-            
-        </script>
-    </body>
+        fetch("https://www.bareun-geulssi.com/image/s3/resource/test/1/test1.jpg", { //TODO. url 변경 해야함- image/s3/resource/{RDS에 저장할 loginId}/{RDS에 저장할 literatureId}/{RDS에 저장할 imageName}
+
+             method : "POST"
+             , body : formData
+         })
+         .then(result => result.json())
+         .then(data => {
+             document.getElementById("img").setAttribute("src", data.path);
+             document.getElementById("remove").setAttribute("key", data.key)
+         })
+         .catch(error => console.log(`error => ${error}`));
+    }
+    function removeResource() {
+        const key = document.getElementById("remove").getAttribute("key");
+        if (!key) {
+            return;
+        }
+        const formData = new FormData();
+        formData.append("key", key);
+
+        fetch("image/s3/resource", { //url 변경
+            method : "DELETE"
+            , body : formData
+        })
+        .then(result => {
+            if (result.ok && result.status === 200) {
+                alert("해당 이미지가 삭제되었습니다.");
+                document.getElementById("img").removeAttribute("src");
+            }
+        })
+        .catch(error => console.log(`error => ${error}`));
+    }
+  </script>
+</body>
 </html>

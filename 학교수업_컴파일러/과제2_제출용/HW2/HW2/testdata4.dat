@@ -1,0 +1,11 @@
+int main(void) {
+	int aa=0; \
+	int bb = 100;
+	while(bb23 > 1.55) {
+		bb /=3; #error
+		a++; ?
+	}
+
+	printf( %d  , aa); // the number of iteration
+	return 0; 
+}@

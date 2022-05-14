@@ -1,7 +1,3 @@
-//1페이지
- 
-//2페이지
- 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,0 +1,17 @@
+
+/*  7*n  */
+
+const int a = 7; 
+int array[10];
+int i = 0; 
+
+// compiler two2
+while(i < len(array)) {
+	array[i] = i*a;
+	i ++;
+	if("true" && 'false')
+		do something!
+}
+
+/*end
+*/

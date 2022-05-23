@@ -3,5 +3,6 @@ extern int yyparse();
 
 int main()
 {
-		return yyparse();
+	yyparse();
+	printf("1971027 JieunOh");
 }

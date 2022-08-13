@@ -17,7 +17,7 @@ int main() {
     //set<int>::iterator iter;
     //auto: 초기화 값에 따라 데이터 타입을 자동으로 정해줌
     for (auto iter = s.begin(); iter != s.end(); iter++) { //set 순회
-        cout << iter <<' ';
+        cout << *iter <<' ';
     }
     return 0;
 }

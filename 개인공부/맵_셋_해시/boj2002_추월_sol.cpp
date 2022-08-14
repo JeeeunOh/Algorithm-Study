@@ -10,7 +10,6 @@ int jumpCar(int n, vector<string> &out_car, map<string, int> &m) {
     for (int i = 0; i < n; i++) { //나온 차 순서대로 검사
         for (int j = i + 1; j < n; j++) { //나온 차 기준으로 뒤에 차들 검사
             if (m[out_car[i]] > m[out_car[j]]) { //나보다 늦게 나온 차가 먼저 들어온 차였다면 -> 추월
-                //cout << m[out_car[j]] << ' ';
                 ans++;
                 break; //추월을 했는지 안 했는지만 보는 것이기 때문에 바로 break
             }

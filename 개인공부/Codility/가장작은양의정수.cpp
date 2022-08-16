@@ -1,3 +1,5 @@
+// 첫도전 -> 100%
+
 #include <algorithm>
 
 int solution(vector<int> &A) {

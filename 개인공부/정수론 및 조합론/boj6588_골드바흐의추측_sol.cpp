@@ -59,8 +59,6 @@ int main() {
             cout << n << " = " << prime << " + " << n - prime << '\n';
         else //틀리다면 -> 0 리턴받은 경우
             cout << "Goldbach's conjecture is wrong.\n";
-
     }
-
     return 0;
 }

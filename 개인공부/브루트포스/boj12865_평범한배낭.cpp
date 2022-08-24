@@ -11,7 +11,10 @@ int main(){
     for(int i=0 ; i<n ; i++){
         int a,b;
         cin >> a >> b; // 무게 가치
-        for(int j=k ; j>=a ; j--){
+        // for(int j=k ; j>=a ; j--){
+        //     dp[j]=max(dp[j], dp[j-a]+b);
+        // }
+        for(int j=a ; j<=k ; j++){
             dp[j]=max(dp[j], dp[j-a]+b);
         }
     }

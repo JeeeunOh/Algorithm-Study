@@ -35,8 +35,5 @@ int main(){
 
         }
     }
-
     cout << day << '\n';
-
-
 }

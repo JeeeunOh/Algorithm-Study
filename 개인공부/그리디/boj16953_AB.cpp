@@ -5,10 +5,10 @@ using namespace std;
 int cnt=1000000000;
 int a,b;
 
-void mul2(int temp, int num);
-void plus1(int temp, int num);
+void mul2(long long temp, int num);
+void plus1(long long temp, int num);
 
-void mul2(int temp, int num){
+void mul2(long long temp, int num){
     temp*=2;
     num++;
 
@@ -21,7 +21,7 @@ void mul2(int temp, int num){
     return;
 }
 
-void plus1(int temp, int num){
+void plus1(long long temp, int num){
     temp*=10;
     temp++;
     num++;

@@ -22,6 +22,8 @@ bool sol(int left, int right, int target, vector<int> &arr){
 }
 
 int main(){
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); 
     cin >> n;
     vector<int> a(n);
 

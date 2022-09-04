@@ -7,7 +7,7 @@ int main(){
     int n,k;
 
     queue<int> q;
-    vector<pair<int, int>> visited(100005, {0,0});
+    vector<pair<int, int>> visited(2000002, {0,0});
 
     cin >> n >> k;
     q.push(n);
@@ -18,22 +18,24 @@ int main(){
         int cur = q.front();
         q.pop();
 
-        if(cur-1>=n && cur-1 <=k+1 && visited[cur-1].first!=1) {
-            q.push(cur-1);
-            visited[cur-1]={1, visited[cur].second+1};
-
+        int next = cur -1 ;
+        if(next >= 0 && next <=2*k && visited[next].first!=1) {
+            q.push(next);
+            visited[next]={1, visited[cur].second+1};
             // cout << cur-1 << " " << visited[cur].second+1 << '\n';
         }
-        if(cur+1>=n && cur+1 <=k+1 && visited[cur+1].first!=1) {
-            q.push(cur+1);
-            visited[cur+1]={1, visited[cur].second+1};
 
+        next = cur+1;
+        if(next >= 0 && next <=2*k && visited[next].first!=1) {
+            q.push(next);
+            visited[next]={1, visited[cur].second+1};
             // cout << cur+1 << " " << visited[cur].second+1 << '\n';
         }
-        if(2*cur>=n && 2*cur <=k+1 && visited[2*cur].first!=1) {
-            q.push(2*cur);
-            visited[2*cur]={1, visited[cur].second+1};
 
+        next = 2*cur ; 
+        if(next >= 0 && next <=2*k && visited[next].first!=1) {
+            q.push(next);
+            visited[next]={1, visited[cur].second+1};
             // cout << 2*cur << " " << visited[cur].second+1 << '\n';
         }
     }

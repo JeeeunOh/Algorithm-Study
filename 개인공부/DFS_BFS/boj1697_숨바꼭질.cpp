@@ -6,39 +6,44 @@ using namespace std;
 int main(){
     int n,k;
 
-    queue<int> q;
-    vector<pair<int, int>> visited(2000002, {0,0});
+    queue<pair<int, int>> q;
+    vector<int> visited(100001, 0);
 
     cin >> n >> k;
-    q.push(n);
-    visited[n]={1, 0};
+    q.push({n, 1});
+    visited[n]=1;
 
 
     while(!q.empty()){
-        int cur = q.front();
+        auto cur = q.front();
+        int idx = cur.first;
+        int cnt = cur.second;
         q.pop();
 
-        int next = cur -1 ;
-        if(next >= 0 && next <=2*k && visited[next].first!=1) {
-            q.push(next);
-            visited[next]={1, visited[cur].second+1};
-            // cout << cur-1 << " " << visited[cur].second+1 << '\n';
+        if(idx == k){
+            cout << cnt << '\n';
+            return 0;
         }
 
-        next = cur+1;
-        if(next >= 0 && next <=2*k && visited[next].first!=1) {
-            q.push(next);
-            visited[next]={1, visited[cur].second+1};
-            // cout << cur+1 << " " << visited[cur].second+1 << '\n';
+        int next = idx - 1 ;
+        if(next >= 0 && next <=2*k && visited[next]!=1) {
+            q.push({next, cnt+1});
+            visited[next]=1;
+            // cout << idx-1 << " " << visited[idx].second+1 << '\n';
         }
 
-        next = 2*cur ; 
-        if(next >= 0 && next <=2*k && visited[next].first!=1) {
-            q.push(next);
-            visited[next]={1, visited[cur].second+1};
-            // cout << 2*cur << " " << visited[cur].second+1 << '\n';
+        next = idx + 1 ;
+        if(next >=0  && next <=2*k && visited[next]!=1) {
+            q.push({next, cnt+1});
+            visited[next]=1;
+            // cout << idx-1 << " " << visited[idx].second+1 << '\n';
+        }
+
+        next = 2 * idx ; 
+        if(next >= 0 && next <=2*k && visited[next]!=1) {
+            q.push({next, cnt+1});
+            visited[next]=1;
+            // cout << idx-1 << " " << visited[idx].second+1 << '\n';
         }
     }
-
-    cout << visited[k].second << '\n';
 }

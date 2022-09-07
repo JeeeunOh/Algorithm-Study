@@ -10,7 +10,7 @@ int main(){
     vector<int> visited(100001, 0);
 
     cin >> n >> k;
-    q.push({n, 1});
+    q.push({n, 0});
     visited[n]=1;
 
 
@@ -26,21 +26,21 @@ int main(){
         }
 
         int next = idx - 1 ;
-        if(next >= 0 && next <=2*k && visited[next]!=1) {
+        if(next >= 0 && next <100001 && visited[next]!=1) {
             q.push({next, cnt+1});
             visited[next]=1;
             // cout << idx-1 << " " << visited[idx].second+1 << '\n';
         }
 
         next = idx + 1 ;
-        if(next >=0  && next <=2*k && visited[next]!=1) {
+        if(next >=0  && next <100001 && visited[next]!=1) {
             q.push({next, cnt+1});
             visited[next]=1;
             // cout << idx-1 << " " << visited[idx].second+1 << '\n';
         }
 
         next = 2 * idx ; 
-        if(next >= 0 && next <=2*k && visited[next]!=1) {
+        if(next >= 0 && next <100001 && visited[next]!=1) {
             q.push({next, cnt+1});
             visited[next]=1;
             // cout << idx-1 << " " << visited[idx].second+1 << '\n';

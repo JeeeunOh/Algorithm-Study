@@ -2,43 +2,35 @@
 #include <vector>
 #include <algorithm>
 #include <string>
-#include<deque>
+#include <deque>
 using namespace std;
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    cout.tie(0);
     int n,t;
-
     cin >> t;
+
     while (t--) {
-        string order,str;
+        string order,str,s = "";
         bool reverse=false, error=false;
         deque<int> dq;
-        cin >> order;
-        cin >> n;
-        cin >> str;
-        string s = "";
-        for (int i = 0; i<str.length();i++) {
 
+        cin >> order >> n >> str;
+
+        for (int i = 0 ; i<str.length() ; i++) {
             if (isdigit(str[i])) {
                 s += str[i];
-
-            }
-            else {
+            } else {
                 if (!s.empty()) {
                     dq.push_back(stoi(s));
                     s = "";
                 }
             }
         }
+
         for (auto o : order) {
             if (o == 'R') {
-                if (reverse)
-                    reverse = false;
-                else
-                    reverse = true;
+                if (reverse) reverse = false;
+                else reverse = true;
             }
             else {
                 if (dq.empty()) {
@@ -46,15 +38,13 @@ int main() {
                     error = true;
                     break;
                 }
-                if (reverse)
-                    dq.pop_back();
-                else
-                    dq.pop_front();
+                if (reverse) dq.pop_back();
+                else dq.pop_front();
             }
         }
-        if (!error) {
-            cout << '[';
-        }
+
+        if (!error) cout << '['; 
+
         if (reverse && !dq.empty()) {
             for (auto o = dq.rbegin(); o != dq.rend(); o++) {
                 if (o == dq.rend() - 1)
@@ -71,8 +61,6 @@ int main() {
                 cout << *o << ',';
             }
         }
-        if(!error)
-        cout <<"]\n";
-
+        if(!error) cout <<"]\n";
     }
 }

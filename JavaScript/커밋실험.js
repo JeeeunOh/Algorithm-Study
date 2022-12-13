@@ -1,2 +1,1 @@
-const pr = 'pr 실험';
-console.log(pr);
+// 이 커밋이 ellie.five로 찍히는지 확인

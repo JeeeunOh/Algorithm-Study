@@ -1,2 +1,0 @@
-This is test data for the hashtable assignment 
-x 123 x

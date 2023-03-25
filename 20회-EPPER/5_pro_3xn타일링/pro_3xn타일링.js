@@ -4,9 +4,11 @@ const MOD = 1000000007;
 
 function solution (n) {
   const dp = [0, 3, 11];
-  const idx = n >> 1;
+  const idx = n / 2;
   
+  // n이 홀수일 땐 불가능
   if(n % 2) return 0;
+  // n이 2일 때는 3가지 경우의 수
   if(idx < 3) return dp[idx];
   
   for(let i = 3; i <= idx; i++) {
@@ -21,3 +23,5 @@ function solution (n) {
   
   return dp[idx];
 }
+
+console.log(solution(4)) // 11

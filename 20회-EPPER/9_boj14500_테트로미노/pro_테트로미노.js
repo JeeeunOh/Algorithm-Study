@@ -1,15 +1,8 @@
 function solution (N, M, paper) {
-  // 자리에 위치한 최대값
-  let maxValue = 0;
-  paper.forEach((row)=>{
-    row.forEach((item)=>{
-      maxValue = Math.max(item, maxValue)
-    })
-  })
-  
   const dx = [-1, 1, 0, 0];
   const dy = [0, 0, -1, 1];
-  const visited = [...Array(N)].map(() => Array(M).fill(false));
+  // const visited = [...Array(N)].map(() => Array(M).fill(false));
+  const visited = Array.from({length: N}, (_)=> Array.from({length: M}, (_)=> false))
   let maxSum = 0;
 
   const dfs = (x, y, count, sum) => {

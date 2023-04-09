@@ -21,6 +21,7 @@ int solution(vector<int> &a) {
     // cout << '\n';
 
     int min=100000000;
+    
     for(int i=1; i<a.size(); i++){
         int temp = headsum[i]-tailsum[i];
         if(temp<0) temp*=(-1);

@@ -1,4 +1,22 @@
 function solution(s) {
+  let delCnt = 0, changeCnt = 0;
+  
+  while(true){
+      // 0 제거 후 1의 개수 반환
+      let newLen = s.split('').filter((item)=> item!='0').length;
+      let bi = newLen.toString(2); // 남은 string을 이진수로 변환
+      
+      changeCnt++;
+      delCnt+=s.length - newLen;
+      
+      s=bi;
+      if(s==='1') break;
+  }
+  
+  return [changeCnt, delCnt];
+}
+
+function solution(s) {
   let answer = [0, 0];
   let num = 0,
     delZero = 0;

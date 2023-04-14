@@ -1,3 +1,30 @@
+// 탈락 요인
+// 1. 한자리단어
+// 2. 이전에 등장했던 단어
+// 3. 시작 문자가 이전 끝문자랑 다를 때
+function solution(n, words) {
+  let set = new Set();
+  let i=0;
+  let flag = true;
+  
+  // n : 3일 때,
+  
+  for(i=0 ; i<words.length; i++){
+      if(words[i].length===1) break; // 1. 한글자일때
+      
+      if(i===0) set.add(words[i]); // 가장 앞 단어일 때
+      else {
+          // 3. 앞의 끝단어랑 현재 시작단어랑 다를 때
+          if(words[i][0]!=words[i-1][words[i-1].length-1]) break;
+          else if(set.has(words[i])) break; // 2. 이전에 등장했던 단어일 때
+          else set.add(words[i]);
+      }
+      if(i===words.length-1) flag = false;
+  }
+  
+  return flag? [i%n+1, Math.floor(i/n)+1] : [0, 0]; // 사람, 차례
+}
+
 function solution(n, words) {
   let answer = [];
 

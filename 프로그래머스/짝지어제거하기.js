@@ -1,3 +1,24 @@
+
+// 14:48 시작
+// 1. 첫 풀이 : 14:57
+// 2. 시간초과 확인 -> 스택구조로 변경
+// 3. 최종제출 : 15:??
+
+function solution(s){
+    
+  let st = [];
+  
+  for(let i=0 ; i<s.length; i++){
+      if(!st.length) st.push(s[i]);
+      else{
+          if(st[st.length-1]===s[i]) st.pop();
+          else st.push(s[i]);
+      }
+  }
+  
+  return st.length? 0:1;
+}
+
 // 정확도 - 시간초과
 function solution(s) {
   let answer = 0;

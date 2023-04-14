@@ -1,3 +1,23 @@
+function solution(pro, speeds) {
+  let answer = [];
+  let day = Array.from({length:pro.length}, (_, idx)=>  Math.ceil((100-pro[idx])/speeds[idx]));
+  
+  for(let i=0 ; i<day.length; i++){
+      if(day[i]===-1) continue;
+      let temp = 1;
+      for(let j=i+1 ; j<day.length; j++){
+          if(day[j]>day[i]) break;
+          if(day[j]!=-1 && day[j]<=day[i]){
+              temp++;
+              day[j]=-1;
+          }
+      }
+      answer.push(temp);
+  }
+  
+  return answer;
+}
+
 // 각 기능 진도 100 일 때 반영 가능
 // 뒤의 기능이 먼저 개발 가능
 // 뒤의 기능은 앞의 기능 배포 때 함께 배포

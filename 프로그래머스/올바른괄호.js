@@ -1,3 +1,17 @@
+function solution(s){
+  let cnt = 0, flag = true;
+  
+  s.split('').map((item)=>{
+      if(item==='(') cnt++;
+      else{
+          if(cnt===0) flag = false;
+          else cnt--;
+      }
+  })
+
+  return cnt>0? false : flag;
+}
+
 // 정확도 100, 시간초과 0
 
 function solution(s){

@@ -1,3 +1,12 @@
+function solution(s) {
+
+  return s.toLowerCase().split(" ")
+  .map((item)=>{
+      return item.substring(0, 1).toUpperCase() + item.substring(1);
+  }).join(" ")
+
+}    
+
 // 44점
 
 function solution(s) {

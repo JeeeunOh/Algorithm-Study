@@ -1,3 +1,42 @@
+function solution(people, limit){
+	var answer = 0
+    people.sort((a,b) => b-a)
+    let l = 0, r = people.length-1
+    
+    while(l<r){
+    	let sum = people[l] + people[r]
+        answer++
+        if(sum>limit){
+        	l++
+        } else {
+        	l++; r--;
+        }
+    }
+    if(l === r) answer++
+    return answer
+}
+
+
+// 시작시간 : 18:45
+function solution(people, limit) {
+  let answer=0;
+  people.sort((a, b)=> b-a);
+  
+  for(let i=0 ;i<people.length; i++){
+      if(people[i]===0) continue;
+      answer++;
+      for(let j=i+1 ; j<people.length ; j++){
+          if (people[j]===0) continue;
+          if(people[i]+people[j]<=limit){
+              people[i]=0;
+              people[j]=0;
+              break;
+          }
+      }
+  }
+  return answer;
+}
+
 function solution(people, limit) {
   // 사람 몸무게 수, 무게 제한
   let cnt = 0;
@@ -35,7 +74,6 @@ function solution(people, limit) {
                     people[i] = 0;
                     people[j] = 0 ;
                     break;
-                    
                 }
             }
             
